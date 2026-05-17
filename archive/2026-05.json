@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T00:00:00.136533+00:00",
+  "generated_at": "2026-05-17T01:00:00.132633+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-05",
@@ -12756,8 +12756,8 @@
       "direction": "Wolfratshausen",
       "direction_bucket": "wolfratshausen",
       "scheduled_time": "2026-05-17T00:00:00+00:00",
-      "actual_time": "2026-05-17T00:01:00+00:00",
-      "delay_minutes": 1,
+      "actual_time": "2026-05-17T00:00:00+00:00",
+      "delay_minutes": 0,
       "cancelled": false,
       "reason": null
     },
@@ -12772,11 +12772,23 @@
       "delay_minutes": 0,
       "cancelled": false,
       "reason": null
+    },
+    {
+      "train_id": "-106823809611389433-2605170234-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-05-17T01:00:00+00:00",
+      "actual_time": "2026-05-17T01:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "reason": null
     }
   ],
   "aggregates": {
-    "total": 1064,
-    "on_time": 262,
+    "total": 1065,
+    "on_time": 263,
     "late": 773,
     "cancelled": 29,
     "avg_delay_min": 2.4,
@@ -12789,8 +12801,8 @@
         "avg_delay_min": 1.8
       },
       "wolfratshausen": {
-        "total": 528,
-        "on_time": 109,
+        "total": 529,
+        "on_time": 110,
         "late": 405,
         "cancelled": 14,
         "avg_delay_min": 2.9
@@ -12888,11 +12900,11 @@
     },
     {
       "date": "2026-05-17",
-      "total": 2,
-      "on_time": 1,
+      "total": 3,
+      "on_time": 2,
       "late": 1,
       "cancelled": 0,
-      "avg_delay_min": 0.5
+      "avg_delay_min": 0.3
     }
   ],
   "daily_by_direction": {
@@ -13085,11 +13097,11 @@
       },
       {
         "date": "2026-05-17",
-        "total": 1,
-        "on_time": 0,
+        "total": 2,
+        "on_time": 1,
         "late": 1,
         "cancelled": 0,
-        "avg_delay_min": 1.0
+        "avg_delay_min": 0.5
       }
     ]
   }
