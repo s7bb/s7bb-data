@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T00:00:00.071465+00:00",
+  "generated_at": "2026-05-19T01:00:00.058104+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
@@ -9135,15 +9135,27 @@
       "delay_minutes": 26,
       "cancelled": false,
       "reason": null
+    },
+    {
+      "train_id": "4466098467165621228-2605190157-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-05-19T00:23:00+00:00",
+      "actual_time": "2026-05-19T00:50:00+00:00",
+      "delay_minutes": 27,
+      "cancelled": false,
+      "reason": null
     }
   ],
   "aggregates": {
     "today": {
-      "total": 5,
+      "total": 6,
       "on_time": 1,
-      "late": 4,
+      "late": 5,
       "cancelled": 0,
-      "avg_delay_min": 12.2,
+      "avg_delay_min": 14.7,
       "by_direction": {
         "muenchen": {
           "total": 2,
@@ -9154,21 +9166,21 @@
           "missing": 0
         },
         "wolfratshausen": {
-          "total": 2,
+          "total": 3,
           "on_time": 0,
-          "late": 2,
+          "late": 3,
           "cancelled": 0,
-          "avg_delay_min": 15.5,
+          "avg_delay_min": 19.3,
           "missing": 0
         }
       }
     },
     "last_7_days": {
-      "total": 761,
+      "total": 762,
       "on_time": 172,
-      "late": 572,
+      "late": 573,
       "cancelled": 17,
-      "avg_delay_min": 2.9,
+      "avg_delay_min": 3.0,
       "by_direction": {
         "muenchen": {
           "total": 380,
@@ -9179,11 +9191,11 @@
           "missing": 0
         },
         "wolfratshausen": {
-          "total": 377,
+          "total": 378,
           "on_time": 64,
-          "late": 305,
+          "late": 306,
           "cancelled": 8,
-          "avg_delay_min": 3.7,
+          "avg_delay_min": 3.8,
           "missing": 0
         }
       }
@@ -9197,7 +9209,8 @@
       ],
       "wolfratshausen": [
         "2026-05-18T22:20:00+00:00",
-        "2026-05-18T23:23:00+00:00"
+        "2026-05-18T23:23:00+00:00",
+        "2026-05-19T00:23:00+00:00"
       ]
     }
   }
