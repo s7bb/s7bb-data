@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T23:00:00.207805+00:00",
+  "generated_at": "2026-05-23T00:00:00.161763+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-05",
@@ -27956,12 +27956,44 @@
       "terminus_status": "arrived",
       "terminus_delay_minutes": 0,
       "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "-3976054376617662651-2605230021-27",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-05-22T23:20:00+00:00",
+      "actual_time": "2026-05-22T23:23:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "8790",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 0,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "4630220657987119715-2605230044-32",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-05-23T00:00:00+00:00",
+      "actual_time": "2026-05-23T00:05:00+00:00",
+      "delay_minutes": 5,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "8794",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 0,
+      "terminus_short_turn_station": null
     }
   ],
   "aggregates": {
-    "total": 1747,
+    "total": 1749,
     "on_time": 409,
-    "late": 1290,
+    "late": 1292,
     "cancelled": 48,
     "avg_delay_min": 2.6,
     "by_direction": {
@@ -27973,9 +28005,9 @@
         "avg_delay_min": 2.0
       },
       "wolfratshausen": {
-        "total": 868,
+        "total": 870,
         "on_time": 165,
-        "late": 680,
+        "late": 682,
         "cancelled": 23,
         "avg_delay_min": 3.1
       }
@@ -28112,11 +28144,19 @@
     },
     {
       "date": "2026-05-22",
-      "total": 111,
+      "total": 112,
       "on_time": 11,
-      "late": 100,
+      "late": 101,
       "cancelled": 0,
       "avg_delay_min": 2.2
+    },
+    {
+      "date": "2026-05-23",
+      "total": 1,
+      "on_time": 0,
+      "late": 1,
+      "cancelled": 0,
+      "avg_delay_min": 5.0
     }
   ],
   "daily_by_direction": {
@@ -28389,11 +28429,19 @@
       },
       {
         "date": "2026-05-22",
-        "total": 58,
+        "total": 59,
         "on_time": 3,
-        "late": 55,
+        "late": 56,
         "cancelled": 0,
         "avg_delay_min": 2.5
+      },
+      {
+        "date": "2026-05-23",
+        "total": 1,
+        "on_time": 0,
+        "late": 1,
+        "cancelled": 0,
+        "avg_delay_min": 5.0
       }
     ]
   }
