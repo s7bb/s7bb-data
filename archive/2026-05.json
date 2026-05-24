@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T05:00:00.182421+00:00",
+  "generated_at": "2026-05-24T06:00:00.296684+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-05",
@@ -29180,8 +29180,8 @@
       "direction": "Höhenkirchen-Siegertsbrunn",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-05-24T05:00:00+00:00",
-      "actual_time": "2026-05-24T05:01:00+00:00",
-      "delay_minutes": 1,
+      "actual_time": "2026-05-24T05:00:00+00:00",
+      "delay_minutes": 0,
       "cancelled": false,
       "reason": null,
       "train_number": "6027",
@@ -29204,26 +29204,122 @@
       "terminus_status": "arrived",
       "terminus_delay_minutes": 2,
       "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "-5571055072851551292-2605240703-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Kreuzstraße",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-05-24T05:20:00+00:00",
+      "actual_time": "2026-05-24T05:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "6029",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 5,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "8322568603842542102-2605240611-29",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-05-24T05:20:00+00:00",
+      "actual_time": "2026-05-24T05:20:00+00:00",
+      "delay_minutes": 0,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "6022",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 5,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "2759621284241684666-2605240723-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Aying",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-05-24T05:40:00+00:00",
+      "actual_time": "2026-05-24T05:40:00+00:00",
+      "delay_minutes": 0,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "6031",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "4370235132506634036-2605240622-32",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-05-24T05:40:00+00:00",
+      "actual_time": "2026-05-24T05:40:00+00:00",
+      "delay_minutes": 0,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "6024",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 0,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "-6572170240620083070-2605240743-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Höhenkirchen-Siegertsbrunn",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-05-24T06:00:00+00:00",
+      "actual_time": "2026-05-24T06:00:00+00:00",
+      "delay_minutes": 0,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "6033",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "4903097503273091428-2605240701-27",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-05-24T06:00:00+00:00",
+      "actual_time": "2026-05-24T06:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "6026",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null
     }
   ],
   "aggregates": {
-    "total": 1825,
-    "on_time": 436,
-    "late": 1341,
+    "total": 1831,
+    "on_time": 441,
+    "late": 1342,
     "cancelled": 48,
-    "avg_delay_min": 2.6,
+    "avg_delay_min": 2.5,
     "by_direction": {
       "muenchen": {
-        "total": 887,
-        "on_time": 251,
+        "total": 890,
+        "on_time": 254,
         "late": 611,
         "cancelled": 25,
         "avg_delay_min": 2.0
       },
       "wolfratshausen": {
-        "total": 927,
-        "on_time": 182,
-        "late": 722,
+        "total": 930,
+        "on_time": 184,
+        "late": 723,
         "cancelled": 23,
         "avg_delay_min": 3.1
       }
@@ -29376,11 +29472,11 @@
     },
     {
       "date": "2026-05-24",
-      "total": 11,
-      "on_time": 7,
-      "late": 4,
+      "total": 17,
+      "on_time": 12,
+      "late": 5,
       "cancelled": 0,
-      "avg_delay_min": 2.1
+      "avg_delay_min": 1.5
     }
   ],
   "daily_by_direction": {
@@ -29531,8 +29627,8 @@
       },
       {
         "date": "2026-05-24",
-        "total": 6,
-        "on_time": 4,
+        "total": 9,
+        "on_time": 7,
         "late": 2,
         "cancelled": 0,
         "avg_delay_min": 0.3
@@ -29685,11 +29781,11 @@
       },
       {
         "date": "2026-05-24",
-        "total": 5,
-        "on_time": 3,
-        "late": 2,
+        "total": 8,
+        "on_time": 5,
+        "late": 3,
         "cancelled": 0,
-        "avg_delay_min": 4.2
+        "avg_delay_min": 2.8
       }
     ]
   }
