@@ -1,41 +1,9 @@
 {
-  "generated_at": "2026-05-26T02:00:00.057531+00:00",
+  "generated_at": "2026-05-26T03:00:00.048426+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
   "arrivals": [
-    {
-      "train_id": "7445422947788705273-2605190423-5",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "München Hbf Gl.27-36",
-      "direction_bucket": "muenchen",
-      "scheduled_time": "2026-05-19T02:40:00+00:00",
-      "actual_time": "2026-05-19T02:43:00+00:00",
-      "delay_minutes": 3,
-      "cancelled": false,
-      "reason": null,
-      "train_number": null,
-      "terminus_status": null,
-      "terminus_delay_minutes": null,
-      "terminus_short_turn_station": null
-    },
-    {
-      "train_id": "7311243364191003536-2605190443-5",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "München Hbf Gl.27-36",
-      "direction_bucket": "muenchen",
-      "scheduled_time": "2026-05-19T03:00:00+00:00",
-      "actual_time": "2026-05-19T03:03:00+00:00",
-      "delay_minutes": 3,
-      "cancelled": false,
-      "reason": null,
-      "train_number": null,
-      "terminus_status": null,
-      "terminus_delay_minutes": null,
-      "terminus_short_turn_station": null
-    },
     {
       "train_id": "-2579462683945696930-2605190503-5",
       "line": "S7",
@@ -11907,22 +11875,54 @@
       "terminus_status": "arrived",
       "terminus_delay_minutes": 17,
       "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "-2589890029664799372-2605260423-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Kreuzstraße",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-05-26T02:40:00+00:00",
+      "actual_time": "2026-05-26T02:40:00+00:00",
+      "delay_minutes": 0,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "6013",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "5236091069455650834-2605260443-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Kreuzstraße",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-05-26T03:00:00+00:00",
+      "actual_time": "2026-05-26T03:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "6015",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null
     }
   ],
   "aggregates": {
     "today": {
-      "total": 6,
-      "on_time": 4,
-      "late": 2,
+      "total": 8,
+      "on_time": 5,
+      "late": 3,
       "cancelled": 0,
-      "avg_delay_min": 3.8,
+      "avg_delay_min": 3.0,
       "by_direction": {
         "muenchen": {
-          "total": 2,
-          "on_time": 2,
-          "late": 0,
+          "total": 4,
+          "on_time": 3,
+          "late": 1,
           "cancelled": 0,
-          "avg_delay_min": 0.0,
+          "avg_delay_min": 0.2,
           "missing": 0
         },
         "wolfratshausen": {
@@ -11937,15 +11937,15 @@
     },
     "last_7_days": {
       "total": 744,
-      "on_time": 183,
-      "late": 552,
+      "on_time": 184,
+      "late": 551,
       "cancelled": 9,
       "avg_delay_min": 2.8,
       "by_direction": {
         "muenchen": {
           "total": 346,
-          "on_time": 106,
-          "late": 235,
+          "on_time": 107,
+          "late": 234,
           "cancelled": 5,
           "avg_delay_min": 2.1,
           "missing": 0
@@ -11965,7 +11965,9 @@
     "today": {
       "muenchen": [
         "2026-05-25T22:20:00+00:00",
-        "2026-05-25T23:00:00+00:00"
+        "2026-05-25T23:00:00+00:00",
+        "2026-05-26T02:40:00+00:00",
+        "2026-05-26T03:00:00+00:00"
       ],
       "wolfratshausen": [
         "2026-05-25T22:00:00+00:00",
@@ -11979,7 +11981,7 @@
     {
       "bucket": "muenchen",
       "zero_match_streak": 0,
-      "updated_at": "2026-05-25T22:55:00.514987+00:00"
+      "updated_at": "2026-05-26T02:55:00.501705+00:00"
     },
     {
       "bucket": "wolfratshausen",
