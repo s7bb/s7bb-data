@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T21:00:00.203229+00:00",
+  "generated_at": "2026-05-29T22:00:00.260642+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-05",
@@ -39916,8 +39916,8 @@
       "direction": "Wolfratshausen",
       "direction_bucket": "wolfratshausen",
       "scheduled_time": "2026-05-29T21:00:00+00:00",
-      "actual_time": "2026-05-29T21:08:00+00:00",
-      "delay_minutes": 8,
+      "actual_time": "2026-05-29T21:09:00+00:00",
+      "delay_minutes": 9,
       "cancelled": false,
       "reason": null,
       "train_number": "8716",
@@ -39932,34 +39932,98 @@
       "direction": "München Hbf Gl.27-36",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-05-29T21:00:00+00:00",
-      "actual_time": "2026-05-29T21:10:00+00:00",
-      "delay_minutes": 10,
+      "actual_time": "2026-05-29T21:09:00+00:00",
+      "delay_minutes": 9,
       "cancelled": false,
       "reason": null,
       "train_number": "8723",
       "terminus_status": "short_turn",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": "München Donnersbergerbrücke"
+    },
+    {
+      "train_id": "-8649658465084551712-2605292254-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-05-29T21:20:00+00:00",
+      "actual_time": "2026-05-29T21:32:00+00:00",
+      "delay_minutes": 12,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "8718",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 12,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "8789838779519040058-2605292303-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-05-29T21:20:00+00:00",
+      "actual_time": "2026-05-29T21:23:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "8725",
+      "terminus_status": "short_turn",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": "München Donnersbergerbrücke"
+    },
+    {
+      "train_id": "-7158634658265224361-2605292314-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-05-29T21:40:00+00:00",
+      "actual_time": "2026-05-29T21:45:00+00:00",
+      "delay_minutes": 5,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "8720",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 0,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "8366045368564222798-2605292323-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-05-29T21:40:00+00:00",
+      "actual_time": "2026-05-29T21:44:00+00:00",
+      "delay_minutes": 4,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "8727",
+      "terminus_status": "short_turn",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": "München Donnersbergerbrücke"
     }
   ],
   "aggregates": {
-    "total": 2496,
+    "total": 2500,
     "on_time": 571,
-    "late": 1862,
+    "late": 1866,
     "cancelled": 63,
     "avg_delay_min": 3.1,
     "by_direction": {
       "muenchen": {
-        "total": 1225,
+        "total": 1227,
         "on_time": 347,
-        "late": 845,
+        "late": 847,
         "cancelled": 33,
         "avg_delay_min": 2.2
       },
       "wolfratshausen": {
-        "total": 1260,
+        "total": 1262,
         "on_time": 221,
-        "late": 1009,
+        "late": 1011,
         "cancelled": 30,
         "avg_delay_min": 4.1
       }
@@ -40152,9 +40216,9 @@
     },
     {
       "date": "2026-05-29",
-      "total": 111,
+      "total": 115,
       "on_time": 12,
-      "late": 98,
+      "late": 102,
       "cancelled": 1,
       "avg_delay_min": 6.2
     }
@@ -40347,9 +40411,9 @@
       },
       {
         "date": "2026-05-29",
-        "total": 56,
+        "total": 58,
         "on_time": 12,
-        "late": 43,
+        "late": 45,
         "cancelled": 1,
         "avg_delay_min": 2.4
       }
@@ -40541,9 +40605,9 @@
       },
       {
         "date": "2026-05-29",
-        "total": 55,
+        "total": 57,
         "on_time": 0,
-        "late": 55,
+        "late": 57,
         "cancelled": 0,
         "avg_delay_min": 10.0
       }
