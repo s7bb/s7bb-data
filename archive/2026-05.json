@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T22:00:00.260642+00:00",
+  "generated_at": "2026-05-29T23:00:00.212494+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-05",
@@ -40004,26 +40004,90 @@
       "terminus_status": "short_turn",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": "München Donnersbergerbrücke"
+    },
+    {
+      "train_id": "1158215719295097093-2605300003-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-05-29T22:20:00+00:00",
+      "actual_time": "2026-05-29T22:23:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "8731",
+      "terminus_status": "short_turn",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": "München Donnersbergerbrücke"
+    },
+    {
+      "train_id": "4696518332274385163-2605292354-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-05-29T22:20:00+00:00",
+      "actual_time": "2026-05-29T22:23:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "8724",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 6,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "-4646435823797920390-2605300034-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-05-29T23:00:00+00:00",
+      "actual_time": "2026-05-29T23:02:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "8728",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "-5015977148636198963-2605300043-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-05-29T23:00:00+00:00",
+      "actual_time": "2026-05-29T23:00:00+00:00",
+      "delay_minutes": 0,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "8735",
+      "terminus_status": "short_turn",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": "München Donnersbergerbrücke"
     }
   ],
   "aggregates": {
-    "total": 2500,
-    "on_time": 571,
-    "late": 1866,
+    "total": 2504,
+    "on_time": 572,
+    "late": 1869,
     "cancelled": 63,
     "avg_delay_min": 3.1,
     "by_direction": {
       "muenchen": {
-        "total": 1227,
-        "on_time": 347,
-        "late": 847,
+        "total": 1229,
+        "on_time": 348,
+        "late": 848,
         "cancelled": 33,
         "avg_delay_min": 2.2
       },
       "wolfratshausen": {
-        "total": 1262,
+        "total": 1264,
         "on_time": 221,
-        "late": 1011,
+        "late": 1013,
         "cancelled": 30,
         "avg_delay_min": 4.1
       }
@@ -40216,11 +40280,11 @@
     },
     {
       "date": "2026-05-29",
-      "total": 115,
-      "on_time": 12,
-      "late": 102,
+      "total": 119,
+      "on_time": 13,
+      "late": 105,
       "cancelled": 1,
-      "avg_delay_min": 6.2
+      "avg_delay_min": 6.1
     }
   ],
   "daily_by_direction": {
@@ -40411,9 +40475,9 @@
       },
       {
         "date": "2026-05-29",
-        "total": 58,
-        "on_time": 12,
-        "late": 45,
+        "total": 60,
+        "on_time": 13,
+        "late": 46,
         "cancelled": 1,
         "avg_delay_min": 2.4
       }
@@ -40605,11 +40669,11 @@
       },
       {
         "date": "2026-05-29",
-        "total": 57,
+        "total": 59,
         "on_time": 0,
-        "late": 57,
+        "late": 59,
         "cancelled": 0,
-        "avg_delay_min": 10.0
+        "avg_delay_min": 9.7
       }
     ]
   }
