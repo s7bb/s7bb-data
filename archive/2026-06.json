@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T00:00:00.198249+00:00",
+  "generated_at": "2026-06-06T01:00:00.168625+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-06",
@@ -9004,8 +9004,8 @@
       "direction": "Wolfratshausen",
       "direction_bucket": "wolfratshausen",
       "scheduled_time": "2026-06-06T00:00:00+00:00",
-      "actual_time": "2026-06-06T00:02:00+00:00",
-      "delay_minutes": 2,
+      "actual_time": "2026-06-06T00:01:00+00:00",
+      "delay_minutes": 1,
       "cancelled": false,
       "reason": null,
       "train_number": "8734",
@@ -9028,12 +9028,28 @@
       "terminus_status": "arrived",
       "terminus_delay_minutes": 0,
       "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "-106823809611389433-2606060234-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-06-06T01:00:00+00:00",
+      "actual_time": "2026-06-06T01:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "8740",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null
     }
   ],
   "aggregates": {
-    "total": 564,
+    "total": 565,
     "on_time": 106,
-    "late": 432,
+    "late": 433,
     "cancelled": 26,
     "avg_delay_min": 2.8,
     "by_direction": {
@@ -9045,9 +9061,9 @@
         "avg_delay_min": 2.7
       },
       "wolfratshausen": {
-        "total": 279,
+        "total": 280,
         "on_time": 47,
-        "late": 220,
+        "late": 221,
         "cancelled": 12,
         "avg_delay_min": 3.0
       }
@@ -9096,11 +9112,11 @@
     },
     {
       "date": "2026-06-06",
-      "total": 2,
+      "total": 3,
       "on_time": 0,
-      "late": 2,
+      "late": 3,
       "cancelled": 0,
-      "avg_delay_min": 1.5
+      "avg_delay_min": 1.0
     }
   ],
   "daily_by_direction": {
@@ -9197,11 +9213,11 @@
       },
       {
         "date": "2026-06-06",
-        "total": 1,
+        "total": 2,
         "on_time": 0,
-        "late": 1,
+        "late": 2,
         "cancelled": 0,
-        "avg_delay_min": 2.0
+        "avg_delay_min": 1.0
       }
     ]
   }
