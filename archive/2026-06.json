@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T22:00:00.307609+00:00",
+  "generated_at": "2026-06-09T23:00:00.154814+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-06",
@@ -15940,28 +15940,92 @@
       "terminus_status": "pending",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "-9221007558792338708-2606100005-3",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-06-09T22:10:00+00:00",
+      "actual_time": "2026-06-09T22:40:00+00:00",
+      "delay_minutes": 30,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "9688",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 4,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "6688463445055987719-2606100013-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Donnersbergerbrücke",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-06-09T22:29:00+00:00",
+      "actual_time": "2026-06-09T22:37:00+00:00",
+      "delay_minutes": 8,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "9695",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "-1144087695562645561-2606092354-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-06-09T22:30:00+00:00",
+      "actual_time": "2026-06-09T22:36:00+00:00",
+      "delay_minutes": 6,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "9690",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "300228735321358359-2606100033-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Donnersbergerbrücke",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-06-09T22:50:00+00:00",
+      "actual_time": "2026-06-09T22:51:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "9697",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null
     }
   ],
   "aggregates": {
-    "total": 996,
+    "total": 1000,
     "on_time": 223,
-    "late": 741,
+    "late": 745,
     "cancelled": 32,
     "avg_delay_min": 2.6,
     "by_direction": {
       "muenchen": {
-        "total": 492,
+        "total": 494,
         "on_time": 108,
-        "late": 367,
+        "late": 369,
         "cancelled": 17,
-        "avg_delay_min": 2.4
+        "avg_delay_min": 2.5
       },
       "wolfratshausen": {
-        "total": 492,
+        "total": 494,
         "on_time": 114,
-        "late": 363,
+        "late": 365,
         "cancelled": 15,
-        "avg_delay_min": 2.7
+        "avg_delay_min": 2.8
       }
     }
   },
@@ -16032,11 +16096,11 @@
     },
     {
       "date": "2026-06-09",
-      "total": 108,
+      "total": 112,
       "on_time": 19,
-      "late": 89,
+      "late": 93,
       "cancelled": 0,
-      "avg_delay_min": 3.1
+      "avg_delay_min": 3.3
     }
   ],
   "daily_by_direction": {
@@ -16107,11 +16171,11 @@
       },
       {
         "date": "2026-06-09",
-        "total": 51,
+        "total": 53,
         "on_time": 10,
-        "late": 41,
+        "late": 43,
         "cancelled": 0,
-        "avg_delay_min": 2.5
+        "avg_delay_min": 2.6
       }
     ],
     "wolfratshausen": [
@@ -16181,11 +16245,11 @@
       },
       {
         "date": "2026-06-09",
-        "total": 53,
+        "total": 55,
         "on_time": 9,
-        "late": 44,
+        "late": 46,
         "cancelled": 0,
-        "avg_delay_min": 3.5
+        "avg_delay_min": 4.0
       }
     ]
   }
