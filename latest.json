@@ -1,25 +1,9 @@
 {
-  "generated_at": "2026-06-09T23:00:00.054899+00:00",
+  "generated_at": "2026-06-10T00:00:00.074492+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
   "arrivals": [
-    {
-      "train_id": "4646561450205784598-2606030137-11",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "Wolfratshausen",
-      "direction_bucket": "wolfratshausen",
-      "scheduled_time": "2026-06-03T00:00:00+00:00",
-      "actual_time": "2026-06-03T00:01:00+00:00",
-      "delay_minutes": 1,
-      "cancelled": false,
-      "reason": null,
-      "train_number": "8734",
-      "terminus_status": "arrived",
-      "terminus_delay_minutes": 4,
-      "terminus_short_turn_station": null
-    },
     {
       "train_id": "7445422947788705273-2606030423-5",
       "line": "S7",
@@ -12195,45 +12179,77 @@
       "terminus_status": "pending",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "8094208277220633134-2606100113-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Donnersbergerbrücke",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-06-09T23:30:00+00:00",
+      "actual_time": "2026-06-09T23:37:00+00:00",
+      "delay_minutes": 7,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "9699",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null
+    },
+    {
+      "train_id": "8570699955064421462-2606100057-11",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-06-09T23:30:00+00:00",
+      "actual_time": "2026-06-09T23:37:00+00:00",
+      "delay_minutes": 7,
+      "cancelled": false,
+      "reason": null,
+      "train_number": "9694",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 10,
+      "terminus_short_turn_station": null
     }
   ],
   "aggregates": {
     "today": {
-      "total": 4,
+      "total": 6,
       "on_time": 0,
-      "late": 4,
+      "late": 6,
       "cancelled": 0,
-      "avg_delay_min": 11.2,
+      "avg_delay_min": 9.8,
       "by_direction": {
         "muenchen": {
-          "total": 2,
+          "total": 3,
           "on_time": 0,
-          "late": 2,
+          "late": 3,
           "cancelled": 0,
-          "avg_delay_min": 4.5,
+          "avg_delay_min": 5.3,
           "missing": 0
         },
         "wolfratshausen": {
-          "total": 2,
+          "total": 3,
           "on_time": 0,
-          "late": 2,
+          "late": 3,
           "cancelled": 0,
-          "avg_delay_min": 18.0,
+          "avg_delay_min": 14.3,
           "missing": 0
         }
       }
     },
     "last_7_days": {
-      "total": 762,
+      "total": 763,
       "on_time": 160,
-      "late": 570,
+      "late": 571,
       "cancelled": 32,
       "avg_delay_min": 2.9,
       "by_direction": {
         "muenchen": {
-          "total": 374,
+          "total": 375,
           "on_time": 72,
-          "late": 285,
+          "late": 286,
           "cancelled": 17,
           "avg_delay_min": 2.8,
           "missing": 0
@@ -12253,24 +12269,26 @@
     "today": {
       "muenchen": [
         "2026-06-09T22:29:00+00:00",
-        "2026-06-09T22:50:00+00:00"
+        "2026-06-09T22:50:00+00:00",
+        "2026-06-09T23:30:00+00:00"
       ],
       "wolfratshausen": [
         "2026-06-09T22:10:00+00:00",
-        "2026-06-09T22:30:00+00:00"
+        "2026-06-09T22:30:00+00:00",
+        "2026-06-09T23:30:00+00:00"
       ]
     }
   },
   "terminus_health": [
     {
       "bucket": "muenchen",
-      "zero_match_streak": 7,
-      "updated_at": "2026-06-09T22:55:00.531941+00:00"
+      "zero_match_streak": 19,
+      "updated_at": "2026-06-09T23:55:00.540550+00:00"
     },
     {
       "bucket": "wolfratshausen",
       "zero_match_streak": 0,
-      "updated_at": "2026-06-09T22:25:00.546018+00:00"
+      "updated_at": "2026-06-09T23:25:00.530389+00:00"
     }
   ]
 }
