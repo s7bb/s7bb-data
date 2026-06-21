@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T00:00:00.197676+00:00",
+  "generated_at": "2026-06-21T01:00:00.201585+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-06",
@@ -35312,8 +35312,8 @@
       "direction": "Wolfratshausen",
       "direction_bucket": "wolfratshausen",
       "scheduled_time": "2026-06-21T00:00:00+00:00",
-      "actual_time": "2026-06-21T00:20:00+00:00",
-      "delay_minutes": 20,
+      "actual_time": "2026-06-21T00:30:00+00:00",
+      "delay_minutes": 30,
       "cancelled": false,
       "train_number": "8734",
       "terminus_status": "arrived",
@@ -35341,12 +35341,28 @@
       "terminus_delay_minutes": 0,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "-106823809611389433-2606210234-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-06-21T01:00:00+00:00",
+      "actual_time": "2026-06-21T01:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8740",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
-    "total": 2139,
+    "total": 2140,
     "on_time": 513,
-    "late": 1558,
+    "late": 1559,
     "cancelled": 68,
     "avg_delay_min": 2.7,
     "by_direction": {
@@ -35358,9 +35374,9 @@
         "avg_delay_min": 2.2
       },
       "wolfratshausen": {
-        "total": 1053,
+        "total": 1054,
         "on_time": 222,
-        "late": 800,
+        "late": 801,
         "cancelled": 31,
         "avg_delay_min": 3.1
       }
@@ -35529,11 +35545,11 @@
     },
     {
       "date": "2026-06-21",
-      "total": 2,
+      "total": 3,
       "on_time": 1,
-      "late": 1,
+      "late": 2,
       "cancelled": 0,
-      "avg_delay_min": 10.0
+      "avg_delay_min": 10.3
     }
   ],
   "daily_by_direction": {
@@ -35870,11 +35886,11 @@
       },
       {
         "date": "2026-06-21",
-        "total": 1,
+        "total": 2,
         "on_time": 0,
-        "late": 1,
+        "late": 2,
         "cancelled": 0,
-        "avg_delay_min": 20.0
+        "avg_delay_min": 15.5
       }
     ]
   }
