@@ -1,46 +1,9 @@
 {
-  "generated_at": "2026-06-22T18:00:00.069822+00:00",
+  "generated_at": "2026-06-22T19:00:00.053284+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
   "arrivals": [
-    {
-      "train_id": "-273127268417641730-2606151954-12",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "Wolfratshausen",
-      "direction_bucket": "wolfratshausen",
-      "scheduled_time": "2026-06-15T18:20:00+00:00",
-      "actual_time": "2026-06-15T18:26:00+00:00",
-      "delay_minutes": 6,
-      "cancelled": false,
-      "train_number": "8700",
-      "terminus_status": "arrived",
-      "terminus_delay_minutes": 8,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": null,
-        "cause_code": 48,
-        "cause_text": null,
-        "window": null
-      }
-    },
-    {
-      "train_id": "-8969098992745335979-2606152003-5",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "München Hbf Gl.27-36",
-      "direction_bucket": "muenchen",
-      "scheduled_time": "2026-06-15T18:20:00+00:00",
-      "actual_time": "2026-06-15T18:25:00+00:00",
-      "delay_minutes": 5,
-      "cancelled": false,
-      "train_number": "8707",
-      "terminus_status": "arrived",
-      "terminus_delay_minutes": 5,
-      "terminus_short_turn_station": null,
-      "disruption": null
-    },
     {
       "train_id": "7445422947788705273-2606160423-5",
       "line": "S7",
@@ -11613,7 +11576,7 @@
         "cause_text": null,
         "window": {
           "from": "2026-06-22T14:42:00+00:00",
-          "to": "2026-06-22T18:00:00+00:00"
+          "to": "2026-06-22T20:30:00+00:00"
         }
       }
     }
@@ -11645,24 +11608,24 @@
       }
     },
     "last_7_days": {
-      "total": 674,
+      "total": 672,
       "on_time": 198,
-      "late": 453,
+      "late": 451,
       "cancelled": 23,
       "avg_delay_min": 2.7,
       "by_direction": {
         "muenchen": {
-          "total": 346,
+          "total": 345,
           "on_time": 118,
-          "late": 216,
+          "late": 215,
           "cancelled": 12,
           "avg_delay_min": 2.0,
           "missing": 0
         },
         "wolfratshausen": {
-          "total": 328,
+          "total": 327,
           "on_time": 80,
-          "late": 237,
+          "late": 236,
           "cancelled": 11,
           "avg_delay_min": 3.3,
           "missing": 0
