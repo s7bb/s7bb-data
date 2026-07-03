@@ -1,33 +1,9 @@
 {
-  "generated_at": "2026-07-03T02:00:00.061648+00:00",
+  "generated_at": "2026-07-03T03:00:00.043972+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
   "arrivals": [
-    {
-      "train_id": "7445422947788705273-2606260423-5",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "München Hbf Gl.27-36",
-      "direction_bucket": "muenchen",
-      "scheduled_time": "2026-06-26T02:40:00+00:00",
-      "actual_time": "2026-06-26T02:41:00+00:00",
-      "delay_minutes": 1,
-      "cancelled": false,
-      "train_number": "6713",
-      "terminus_status": "short_turn",
-      "terminus_delay_minutes": null,
-      "terminus_short_turn_station": "Großhesselohe Isartalbf",
-      "disruption": {
-        "category": "Störung",
-        "cause_code": 38,
-        "cause_text": null,
-        "window": {
-          "from": "2026-06-25T02:00:00+00:00",
-          "to": "2026-06-26T05:00:00+00:00"
-        }
-      }
-    },
     {
       "train_id": "-2579462683945696930-2606260503-5",
       "line": "S7",
@@ -12074,22 +12050,38 @@
       "terminus_delay_minutes": 4,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "7445422947788705273-2607030423-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-07-03T02:40:00+00:00",
+      "actual_time": "2026-07-03T02:41:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "6713",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
     "today": {
-      "total": 0,
+      "total": 1,
       "on_time": 0,
-      "late": 0,
+      "late": 1,
       "cancelled": 0,
-      "avg_delay_min": 0.0,
+      "avg_delay_min": 1.0,
       "by_direction": {
         "muenchen": {
-          "total": 0,
+          "total": 1,
           "on_time": 0,
-          "late": 0,
+          "late": 1,
           "cancelled": 0,
-          "avg_delay_min": 0.0,
+          "avg_delay_min": 1.0,
           "missing": 0
         },
         "wolfratshausen": {
@@ -12130,7 +12122,9 @@
   },
   "expected_slots": {
     "today": {
-      "muenchen": [],
+      "muenchen": [
+        "2026-07-03T02:40:00+00:00"
+      ],
       "wolfratshausen": []
     }
   },
@@ -12138,7 +12132,7 @@
     {
       "bucket": "muenchen",
       "zero_match_streak": 0,
-      "updated_at": "2026-07-02T17:55:00.564282+00:00"
+      "updated_at": "2026-07-03T02:35:00.544672+00:00"
     },
     {
       "bucket": "wolfratshausen",
