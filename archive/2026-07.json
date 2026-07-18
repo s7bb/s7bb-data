@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T21:00:00.190585+00:00",
+  "generated_at": "2026-07-18T22:00:00.212005+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-07",
@@ -30638,26 +30638,105 @@
         "cause_text": null,
         "window": null
       }
+    },
+    {
+      "train_id": "-8649658465084551712-2607182254-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-07-18T21:20:00+00:00",
+      "actual_time": "2026-07-18T21:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8718",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 14,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "8789838779519040058-2607182303-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-07-18T21:20:00+00:00",
+      "actual_time": "2026-07-18T21:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8725",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-7158634658265224361-2607182314-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-07-18T21:40:00+00:00",
+      "actual_time": "2026-07-18T21:43:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "8720",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 0,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 14,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "8366045368564222798-2607182323-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-07-18T21:40:00+00:00",
+      "actual_time": "2026-07-18T21:43:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "8727",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 14,
+        "cause_text": null,
+        "window": null
+      }
     }
   ],
   "aggregates": {
-    "total": 1608,
+    "total": 1612,
     "on_time": 206,
-    "late": 1331,
+    "late": 1335,
     "cancelled": 71,
     "avg_delay_min": 3.6,
     "by_direction": {
       "muenchen": {
-        "total": 835,
+        "total": 837,
         "on_time": 140,
-        "late": 659,
+        "late": 661,
         "cancelled": 36,
         "avg_delay_min": 2.8
       },
       "wolfratshausen": {
-        "total": 773,
+        "total": 775,
         "on_time": 66,
-        "late": 672,
+        "late": 674,
         "cancelled": 35,
         "avg_delay_min": 4.5
       }
@@ -30802,9 +30881,9 @@
     },
     {
       "date": "2026-07-18",
-      "total": 96,
+      "total": 100,
       "on_time": 4,
-      "late": 92,
+      "late": 96,
       "cancelled": 0,
       "avg_delay_min": 3.7
     }
@@ -30949,9 +31028,9 @@
       },
       {
         "date": "2026-07-18",
-        "total": 49,
+        "total": 51,
         "on_time": 3,
-        "late": 46,
+        "late": 48,
         "cancelled": 0,
         "avg_delay_min": 3.3
       }
@@ -31095,9 +31174,9 @@
       },
       {
         "date": "2026-07-18",
-        "total": 47,
+        "total": 49,
         "on_time": 1,
-        "late": 46,
+        "late": 48,
         "cancelled": 0,
         "avg_delay_min": 4.1
       }
