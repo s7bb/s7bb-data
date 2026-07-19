@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T12:00:00.227485+00:00",
+  "generated_at": "2026-07-19T13:00:00.196680+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-07",
@@ -31891,8 +31891,8 @@
       "direction": "Wolfratshausen",
       "direction_bucket": "wolfratshausen",
       "scheduled_time": "2026-07-19T12:00:00+00:00",
-      "actual_time": "2026-07-19T12:06:00+00:00",
-      "delay_minutes": 6,
+      "actual_time": "2026-07-19T12:07:00+00:00",
+      "delay_minutes": 7,
       "cancelled": false,
       "train_number": "6762",
       "terminus_status": "arrived",
@@ -31904,7 +31904,7 @@
         "cause_text": "Verspätung eines vorausfahrenden Zuges",
         "window": {
           "from": "2026-07-19T03:25:00+00:00",
-          "to": "2026-07-19T12:30:00+00:00"
+          "to": "2026-07-19T13:30:00+00:00"
         }
       }
     },
@@ -31915,8 +31915,8 @@
       "direction": "München Hbf Gl.27-36",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-07-19T12:00:00+00:00",
-      "actual_time": "2026-07-19T12:05:00+00:00",
-      "delay_minutes": 5,
+      "actual_time": "2026-07-19T12:06:00+00:00",
+      "delay_minutes": 6,
       "cancelled": false,
       "train_number": "6769",
       "terminus_status": "arrived",
@@ -31928,29 +31928,173 @@
         "cause_text": "Verspätung eines vorausfahrenden Zuges",
         "window": {
           "from": "2026-07-19T03:25:00+00:00",
-          "to": "2026-07-19T12:30:00+00:00"
+          "to": "2026-07-19T13:30:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "-200710167389055606-2607191403-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-07-19T12:20:00+00:00",
+      "actual_time": "2026-07-19T12:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "6771",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 34,
+        "cause_text": "Verspätung eines vorausfahrenden Zuges",
+        "window": {
+          "from": "2026-07-19T03:25:00+00:00",
+          "to": "2026-07-19T13:30:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "-4895940121329846812-2607191354-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-07-19T12:20:00+00:00",
+      "actual_time": "2026-07-19T12:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "6764",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 5,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 34,
+        "cause_text": "Verspätung eines vorausfahrenden Zuges",
+        "window": {
+          "from": "2026-07-19T03:25:00+00:00",
+          "to": "2026-07-19T13:30:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "-3055705683960046530-2607191414-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-07-19T12:40:00+00:00",
+      "actual_time": "2026-07-19T12:43:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "6766",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 0,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 34,
+        "cause_text": "Verspätung eines vorausfahrenden Zuges",
+        "window": {
+          "from": "2026-07-19T03:25:00+00:00",
+          "to": "2026-07-19T13:30:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "-382087224959868875-2607191423-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-07-19T12:40:00+00:00",
+      "actual_time": "2026-07-19T12:43:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "6773",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 0,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 34,
+        "cause_text": "Verspätung eines vorausfahrenden Zuges",
+        "window": {
+          "from": "2026-07-19T03:25:00+00:00",
+          "to": "2026-07-19T13:30:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "3605802904369777069-2607191434-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-07-19T13:00:00+00:00",
+      "actual_time": "2026-07-19T13:03:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "6768",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 5,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 34,
+        "cause_text": "Verspätung eines vorausfahrenden Zuges",
+        "window": {
+          "from": "2026-07-19T03:25:00+00:00",
+          "to": "2026-07-19T13:30:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "400099254774305151-2607191443-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-07-19T13:00:00+00:00",
+      "actual_time": "2026-07-19T13:04:00+00:00",
+      "delay_minutes": 4,
+      "cancelled": false,
+      "train_number": "6775",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 5,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 34,
+        "cause_text": "Verspätung eines vorausfahrenden Zuges",
+        "window": {
+          "from": "2026-07-19T03:25:00+00:00",
+          "to": "2026-07-19T13:30:00+00:00"
         }
       }
     }
   ],
   "aggregates": {
-    "total": 1664,
+    "total": 1670,
     "on_time": 212,
-    "late": 1381,
+    "late": 1387,
     "cancelled": 71,
     "avg_delay_min": 3.7,
     "by_direction": {
       "muenchen": {
-        "total": 863,
+        "total": 866,
         "on_time": 142,
-        "late": 685,
+        "late": 688,
         "cancelled": 36,
         "avg_delay_min": 2.8
       },
       "wolfratshausen": {
-        "total": 801,
+        "total": 804,
         "on_time": 70,
-        "late": 696,
+        "late": 699,
         "cancelled": 35,
         "avg_delay_min": 4.5
       }
@@ -32103,11 +32247,11 @@
     },
     {
       "date": "2026-07-19",
-      "total": 48,
+      "total": 54,
       "on_time": 5,
-      "late": 43,
+      "late": 49,
       "cancelled": 0,
-      "avg_delay_min": 5.9
+      "avg_delay_min": 5.6
     }
   ],
   "daily_by_direction": {
@@ -32258,11 +32402,11 @@
       },
       {
         "date": "2026-07-19",
-        "total": 24,
+        "total": 27,
         "on_time": 2,
-        "late": 22,
+        "late": 25,
         "cancelled": 0,
-        "avg_delay_min": 4.3
+        "avg_delay_min": 4.2
       }
     ],
     "wolfratshausen": [
@@ -32412,11 +32556,11 @@
       },
       {
         "date": "2026-07-19",
-        "total": 24,
+        "total": 27,
         "on_time": 3,
-        "late": 21,
+        "late": 24,
         "cancelled": 0,
-        "avg_delay_min": 7.4
+        "avg_delay_min": 6.9
       }
     ]
   }
