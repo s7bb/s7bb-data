@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-08-01T00:00:00.143435+00:00",
+  "station": "Baierbrunn",
+  "line": "S7",
+  "period": "2026-08",
+  "finalized": false,
+  "arrivals": [
+    {
+      "train_id": "3896499363414029360-2608010134-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-08-01T00:00:00+00:00",
+      "actual_time": null,
+      "delay_minutes": null,
+      "cancelled": true,
+      "train_number": "8734",
+      "terminus_status": null,
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 38,
+        "cause_text": null,
+        "window": {
+          "from": "2026-07-31T22:03:00+00:00",
+          "to": "2026-08-01T01:30:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "4909175930471679136-2608010143-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-08-01T00:00:00+00:00",
+      "actual_time": null,
+      "delay_minutes": null,
+      "cancelled": true,
+      "train_number": "8741",
+      "terminus_status": null,
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 38,
+        "cause_text": null,
+        "window": {
+          "from": "2026-07-31T22:03:00+00:00",
+          "to": "2026-08-01T01:30:00+00:00"
+        }
+      }
+    }
+  ],
+  "aggregates": {
+    "total": 2,
+    "on_time": 0,
+    "late": 0,
+    "cancelled": 2,
+    "avg_delay_min": 0.0,
+    "by_direction": {
+      "muenchen": {
+        "total": 1,
+        "on_time": 0,
+        "late": 0,
+        "cancelled": 1,
+        "avg_delay_min": 0.0
+      },
+      "wolfratshausen": {
+        "total": 1,
+        "on_time": 0,
+        "late": 0,
+        "cancelled": 1,
+        "avg_delay_min": 0.0
+      }
+    }
+  },
+  "daily": [
+    {
+      "date": "2026-08-01",
+      "total": 2,
+      "on_time": 0,
+      "late": 0,
+      "cancelled": 2,
+      "avg_delay_min": 0.0
+    }
+  ],
+  "daily_by_direction": {
+    "muenchen": [
+      {
+        "date": "2026-08-01",
+        "total": 1,
+        "on_time": 0,
+        "late": 0,
+        "cancelled": 1,
+        "avg_delay_min": 0.0
+      }
+    ],
+    "wolfratshausen": [
+      {
+        "date": "2026-08-01",
+        "total": 1,
+        "on_time": 0,
+        "late": 0,
+        "cancelled": 1,
+        "avg_delay_min": 0.0
+      }
+    ]
+  }
+}
