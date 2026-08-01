@@ -1,30 +1,9 @@
 {
-  "generated_at": "2026-08-01T00:00:00.054182+00:00",
+  "generated_at": "2026-08-01T01:00:00.060335+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
   "arrivals": [
-    {
-      "train_id": "-106823809611389433-2607250234-12",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "Wolfratshausen",
-      "direction_bucket": "wolfratshausen",
-      "scheduled_time": "2026-07-25T01:00:00+00:00",
-      "actual_time": "2026-07-25T01:24:00+00:00",
-      "delay_minutes": 24,
-      "cancelled": false,
-      "train_number": "8740",
-      "terminus_status": "arrived",
-      "terminus_delay_minutes": 18,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": null,
-        "cause_code": 48,
-        "cause_text": null,
-        "window": null
-      }
-    },
     {
       "train_id": "-2579462683945696930-2607250503-5",
       "line": "S7",
@@ -15613,14 +15592,38 @@
           "to": "2026-08-01T01:30:00+00:00"
         }
       }
+    },
+    {
+      "train_id": "-106823809611389433-2608010234-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-08-01T01:00:00+00:00",
+      "actual_time": null,
+      "delay_minutes": null,
+      "cancelled": true,
+      "train_number": "8740",
+      "terminus_status": null,
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 38,
+        "cause_text": null,
+        "window": {
+          "from": "2026-07-31T22:03:00+00:00",
+          "to": "2026-08-01T01:30:00+00:00"
+        }
+      }
     }
   ],
   "aggregates": {
     "today": {
-      "total": 6,
+      "total": 7,
       "on_time": 0,
       "late": 0,
-      "cancelled": 6,
+      "cancelled": 7,
       "avg_delay_min": 0.0,
       "by_direction": {
         "muenchen": {
@@ -15632,10 +15635,10 @@
           "missing": 0
         },
         "wolfratshausen": {
-          "total": 3,
+          "total": 4,
           "on_time": 0,
           "late": 0,
-          "cancelled": 3,
+          "cancelled": 4,
           "avg_delay_min": 0.0,
           "missing": 0
         }
@@ -15644,8 +15647,8 @@
     "last_7_days": {
       "total": 780,
       "on_time": 42,
-      "late": 709,
-      "cancelled": 29,
+      "late": 708,
+      "cancelled": 30,
       "avg_delay_min": 7.3,
       "by_direction": {
         "muenchen": {
@@ -15659,8 +15662,8 @@
         "wolfratshausen": {
           "total": 386,
           "on_time": 6,
-          "late": 367,
-          "cancelled": 13,
+          "late": 366,
+          "cancelled": 14,
           "avg_delay_min": 9.1,
           "missing": 0
         }
@@ -15677,7 +15680,8 @@
       "wolfratshausen": [
         "2026-07-31T22:20:00+00:00",
         "2026-07-31T23:00:00+00:00",
-        "2026-08-01T00:00:00+00:00"
+        "2026-08-01T00:00:00+00:00",
+        "2026-08-01T01:00:00+00:00"
       ]
     }
   },
