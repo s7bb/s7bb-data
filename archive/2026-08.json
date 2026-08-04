@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T22:00:00.299947+00:00",
+  "generated_at": "2026-08-04T23:00:00.189689+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-08",
@@ -8959,26 +8959,108 @@
           "to": "2026-08-04T22:03:00+00:00"
         }
       }
+    },
+    {
+      "train_id": "1158215719295097093-2608050003-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Donnersbergerbrücke",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-08-04T22:20:00+00:00",
+      "actual_time": "2026-08-04T22:37:00+00:00",
+      "delay_minutes": 17,
+      "cancelled": false,
+      "train_number": "8731",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 31,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "4696518332274385163-2608042354-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-08-04T22:20:00+00:00",
+      "actual_time": "2026-08-04T22:31:00+00:00",
+      "delay_minutes": 11,
+      "cancelled": false,
+      "train_number": "8724",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 13,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 67,
+        "cause_text": null,
+        "window": {
+          "from": "2026-08-04T21:03:00+00:00",
+          "to": "2026-08-04T22:03:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "-4646435823797920390-2608050034-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-08-04T23:00:00+00:00",
+      "actual_time": "2026-08-04T23:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8728",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-5015977148636198963-2608050043-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Donnersbergerbrücke",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-08-04T23:00:00+00:00",
+      "actual_time": "2026-08-04T23:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8735",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 31,
+        "cause_text": null,
+        "window": null
+      }
     }
   ],
   "aggregates": {
-    "total": 437,
+    "total": 441,
     "on_time": 24,
-    "late": 297,
+    "late": 301,
     "cancelled": 116,
     "avg_delay_min": 6.7,
     "by_direction": {
       "muenchen": {
-        "total": 219,
+        "total": 221,
         "on_time": 23,
-        "late": 137,
+        "late": 139,
         "cancelled": 59,
-        "avg_delay_min": 4.3
+        "avg_delay_min": 4.4
       },
       "wolfratshausen": {
-        "total": 217,
+        "total": 219,
         "on_time": 1,
-        "late": 159,
+        "late": 161,
         "cancelled": 57,
         "avg_delay_min": 9.1
       }
@@ -9011,9 +9093,9 @@
     },
     {
       "date": "2026-08-04",
-      "total": 115,
+      "total": 119,
       "on_time": 10,
-      "late": 98,
+      "late": 102,
       "cancelled": 7,
       "avg_delay_min": 6.3
     }
@@ -9046,11 +9128,11 @@
       },
       {
         "date": "2026-08-04",
-        "total": 58,
+        "total": 60,
         "on_time": 9,
-        "late": 45,
+        "late": 47,
         "cancelled": 4,
-        "avg_delay_min": 3.8
+        "avg_delay_min": 4.0
       }
     ],
     "wolfratshausen": [
@@ -9080,11 +9162,11 @@
       },
       {
         "date": "2026-08-04",
-        "total": 56,
+        "total": 58,
         "on_time": 1,
-        "late": 52,
+        "late": 54,
         "cancelled": 3,
-        "avg_delay_min": 8.9
+        "avg_delay_min": 8.8
       }
     ]
   }
