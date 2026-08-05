@@ -1,25 +1,9 @@
 {
-  "generated_at": "2026-08-04T23:00:00.059864+00:00",
+  "generated_at": "2026-08-05T00:00:00.062074+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
   "arrivals": [
-    {
-      "train_id": "3896499363414029360-2607290134-12",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "Wolfratshausen",
-      "direction_bucket": "wolfratshausen",
-      "scheduled_time": "2026-07-29T00:00:00+00:00",
-      "actual_time": "2026-07-29T00:03:00+00:00",
-      "delay_minutes": 3,
-      "cancelled": false,
-      "train_number": "8734",
-      "terminus_status": "arrived",
-      "terminus_delay_minutes": 5,
-      "terminus_short_turn_station": null,
-      "disruption": null
-    },
     {
       "train_id": "7445422947788705273-2607290423-5",
       "line": "S7",
@@ -16304,7 +16288,7 @@
       "delay_minutes": 17,
       "cancelled": false,
       "train_number": "8731",
-      "terminus_status": "pending",
+      "terminus_status": "cancelled",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null,
       "disruption": {
@@ -16361,8 +16345,8 @@
       "direction": "München Donnersbergerbrücke",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-08-04T23:00:00+00:00",
-      "actual_time": "2026-08-04T23:01:00+00:00",
-      "delay_minutes": 1,
+      "actual_time": "2026-08-04T23:00:00+00:00",
+      "delay_minutes": 0,
       "cancelled": false,
       "train_number": "8735",
       "terminus_status": "pending",
@@ -16374,45 +16358,66 @@
         "cause_text": null,
         "window": null
       }
+    },
+    {
+      "train_id": "4646561450205784598-2608050137-11",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-08-05T00:00:00+00:00",
+      "actual_time": "2026-08-05T00:18:00+00:00",
+      "delay_minutes": 18,
+      "cancelled": false,
+      "train_number": "8734",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 20,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 31,
+        "cause_text": null,
+        "window": null
+      }
     }
   ],
   "aggregates": {
     "today": {
-      "total": 4,
-      "on_time": 0,
+      "total": 5,
+      "on_time": 1,
       "late": 4,
       "cancelled": 0,
-      "avg_delay_min": 7.5,
+      "avg_delay_min": 9.4,
       "by_direction": {
         "muenchen": {
           "total": 2,
-          "on_time": 0,
-          "late": 2,
+          "on_time": 1,
+          "late": 1,
           "cancelled": 0,
-          "avg_delay_min": 9.0,
+          "avg_delay_min": 8.5,
           "missing": 0
         },
         "wolfratshausen": {
-          "total": 2,
+          "total": 3,
           "on_time": 0,
-          "late": 2,
+          "late": 3,
           "cancelled": 0,
-          "avg_delay_min": 6.0,
+          "avg_delay_min": 10.0,
           "missing": 0
         }
       }
     },
     "last_7_days": {
       "total": 774,
-      "on_time": 36,
-      "late": 601,
+      "on_time": 37,
+      "late": 600,
       "cancelled": 137,
       "avg_delay_min": 8.6,
       "by_direction": {
         "muenchen": {
           "total": 389,
-          "on_time": 32,
-          "late": 286,
+          "on_time": 33,
+          "late": 285,
           "cancelled": 71,
           "avg_delay_min": 6.1,
           "missing": 0
@@ -16436,20 +16441,21 @@
       ],
       "wolfratshausen": [
         "2026-08-04T22:20:00+00:00",
-        "2026-08-04T23:00:00+00:00"
+        "2026-08-04T23:00:00+00:00",
+        "2026-08-05T00:00:00+00:00"
       ]
     }
   },
   "terminus_health": [
     {
       "bucket": "muenchen",
-      "zero_match_streak": 9,
-      "updated_at": "2026-08-04T22:55:00.527299+00:00"
+      "zero_match_streak": 21,
+      "updated_at": "2026-08-04T23:55:00.537476+00:00"
     },
     {
       "bucket": "wolfratshausen",
       "zero_match_streak": 0,
-      "updated_at": "2026-08-04T22:55:00.527299+00:00"
+      "updated_at": "2026-08-04T23:55:00.537476+00:00"
     }
   ]
 }
