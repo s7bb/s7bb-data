@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T23:00:00.235732+00:00",
+  "generated_at": "2026-08-16T00:00:00.275605+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-08",
@@ -35545,19 +35545,67 @@
           "to": "2026-08-17T14:30:00+00:00"
         }
       }
+    },
+    {
+      "train_id": "-1308942322870344877-2608160150-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-08-16T00:00:00+00:00",
+      "actual_time": "2026-08-16T00:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8741",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Information",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-08-10T12:30:00+00:00",
+          "to": "2026-08-17T14:30:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "3896499363414029360-2608160134-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-08-16T00:00:00+00:00",
+      "actual_time": "2026-08-16T00:02:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8734",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Information",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-08-10T12:30:00+00:00",
+          "to": "2026-08-17T14:30:00+00:00"
+        }
+      }
     }
   ],
   "aggregates": {
-    "total": 1713,
+    "total": 1715,
     "on_time": 140,
-    "late": 1436,
+    "late": 1438,
     "cancelled": 137,
     "avg_delay_min": 3.8,
     "by_direction": {
       "muenchen": {
-        "total": 862,
+        "total": 863,
         "on_time": 96,
-        "late": 696,
+        "late": 697,
         "cancelled": 70,
         "avg_delay_min": 3.0
       },
@@ -35690,6 +35738,14 @@
       "late": 99,
       "cancelled": 0,
       "avg_delay_min": 2.2
+    },
+    {
+      "date": "2026-08-16",
+      "total": 2,
+      "on_time": 0,
+      "late": 2,
+      "cancelled": 0,
+      "avg_delay_min": 1.5
     }
   ],
   "daily_by_direction": {
@@ -35813,6 +35869,14 @@
         "late": 49,
         "cancelled": 0,
         "avg_delay_min": 2.0
+      },
+      {
+        "date": "2026-08-16",
+        "total": 1,
+        "on_time": 0,
+        "late": 1,
+        "cancelled": 0,
+        "avg_delay_min": 1.0
       }
     ],
     "wolfratshausen": [
