@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T22:00:00.304504+00:00",
+  "generated_at": "2026-08-20T23:00:00.256384+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-08",
@@ -49464,10 +49464,82 @@
       "direction": "Icking",
       "direction_bucket": "unknown",
       "scheduled_time": "2026-08-20T22:00:00+00:00",
-      "actual_time": "2026-08-20T22:06:00+00:00",
-      "delay_minutes": 6,
+      "actual_time": "2026-08-20T22:08:00+00:00",
+      "delay_minutes": 8,
       "cancelled": false,
       "train_number": "8772",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Information",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-08-10T12:30:00+00:00",
+          "to": "2026-08-23T21:59:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "3019847486156307519-2608210010-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Donnersbergerbrücke",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-08-20T22:20:00+00:00",
+      "actual_time": "2026-08-20T22:20:00+00:00",
+      "delay_minutes": 0,
+      "cancelled": false,
+      "train_number": "8731",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Information",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-08-10T12:30:00+00:00",
+          "to": "2026-08-23T21:59:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "3688737150640186927-2608202331-29",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-08-20T22:40:00+00:00",
+      "actual_time": "2026-08-20T22:41:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8776",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Information",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-08-10T12:30:00+00:00",
+          "to": "2026-08-23T21:59:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "-7613585688605156073-2608210050-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Donnersbergerbrücke",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-08-20T23:00:00+00:00",
+      "actual_time": "2026-08-20T23:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8735",
       "terminus_status": "pending",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null,
@@ -49483,16 +49555,16 @@
     }
   ],
   "aggregates": {
-    "total": 2297,
-    "on_time": 180,
-    "late": 1960,
+    "total": 2300,
+    "on_time": 181,
+    "late": 1962,
     "cancelled": 157,
     "avg_delay_min": 4.1,
     "by_direction": {
       "muenchen": {
-        "total": 1156,
-        "on_time": 130,
-        "late": 948,
+        "total": 1158,
+        "on_time": 131,
+        "late": 949,
         "cancelled": 78,
         "avg_delay_min": 3.1
       },
@@ -49660,11 +49732,11 @@
     },
     {
       "date": "2026-08-20",
-      "total": 115,
-      "on_time": 9,
-      "late": 101,
+      "total": 118,
+      "on_time": 10,
+      "late": 103,
       "cancelled": 5,
-      "avg_delay_min": 5.3
+      "avg_delay_min": 5.2
     }
   ],
   "daily_by_direction": {
@@ -49823,11 +49895,11 @@
       },
       {
         "date": "2026-08-20",
-        "total": 58,
-        "on_time": 9,
-        "late": 48,
+        "total": 60,
+        "on_time": 10,
+        "late": 49,
         "cancelled": 1,
-        "avg_delay_min": 3.3
+        "avg_delay_min": 3.2
       }
     ],
     "wolfratshausen": [
