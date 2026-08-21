@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T23:00:00.256384+00:00",
+  "generated_at": "2026-08-21T00:00:00.373425+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-08",
@@ -49492,7 +49492,7 @@
       "delay_minutes": 0,
       "cancelled": false,
       "train_number": "8731",
-      "terminus_status": "pending",
+      "terminus_status": "cancelled",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null,
       "disruption": {
@@ -49552,12 +49552,60 @@
           "to": "2026-08-23T21:59:00+00:00"
         }
       }
+    },
+    {
+      "train_id": "8245523091580557444-2608210057-11",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-08-20T23:20:00+00:00",
+      "actual_time": "2026-08-20T23:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8780",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Information",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-08-10T12:30:00+00:00",
+          "to": "2026-08-23T21:59:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "4646561450205784598-2608210137-11",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-08-21T00:00:00+00:00",
+      "actual_time": "2026-08-21T00:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8734",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Information",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-08-10T12:30:00+00:00",
+          "to": "2026-08-23T21:59:00+00:00"
+        }
+      }
     }
   ],
   "aggregates": {
-    "total": 2300,
+    "total": 2302,
     "on_time": 181,
-    "late": 1962,
+    "late": 1964,
     "cancelled": 157,
     "avg_delay_min": 4.1,
     "by_direction": {
@@ -49732,11 +49780,19 @@
     },
     {
       "date": "2026-08-20",
-      "total": 118,
+      "total": 119,
       "on_time": 10,
-      "late": 103,
+      "late": 104,
       "cancelled": 5,
       "avg_delay_min": 5.2
+    },
+    {
+      "date": "2026-08-21",
+      "total": 1,
+      "on_time": 0,
+      "late": 1,
+      "cancelled": 0,
+      "avg_delay_min": 1.0
     }
   ],
   "daily_by_direction": {
