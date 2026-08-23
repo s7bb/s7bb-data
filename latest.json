@@ -1,33 +1,9 @@
 {
-  "generated_at": "2026-08-23T00:00:00.064817+00:00",
+  "generated_at": "2026-08-23T01:00:00.096935+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
   "arrivals": [
-    {
-      "train_id": "-106823809611389433-2608160234-12",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "Icking",
-      "direction_bucket": "unknown",
-      "scheduled_time": "2026-08-16T01:00:00+00:00",
-      "actual_time": "2026-08-16T01:01:00+00:00",
-      "delay_minutes": 1,
-      "cancelled": false,
-      "train_number": "8740",
-      "terminus_status": "pending",
-      "terminus_delay_minutes": null,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": "Information",
-        "cause_code": null,
-        "cause_text": null,
-        "window": {
-          "from": "2026-08-10T12:30:00+00:00",
-          "to": "2026-08-17T14:30:00+00:00"
-        }
-      }
-    },
     {
       "train_id": "-477778897749039237-2608160510-4",
       "line": "S7",
@@ -19634,8 +19610,8 @@
       "direction": "Icking",
       "direction_bucket": "unknown",
       "scheduled_time": "2026-08-23T00:00:00+00:00",
-      "actual_time": "2026-08-23T00:06:00+00:00",
-      "delay_minutes": 6,
+      "actual_time": "2026-08-23T00:12:00+00:00",
+      "delay_minutes": 12,
       "cancelled": false,
       "train_number": "8784",
       "terminus_status": "pending",
@@ -19650,15 +19626,39 @@
           "to": "2026-08-23T21:59:00+00:00"
         }
       }
+    },
+    {
+      "train_id": "-4910902953758749491-2608230151-29",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-08-23T01:00:00+00:00",
+      "actual_time": "2026-08-23T01:08:00+00:00",
+      "delay_minutes": 8,
+      "cancelled": false,
+      "train_number": "8790",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Information",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-08-10T12:30:00+00:00",
+          "to": "2026-08-23T21:59:00+00:00"
+        }
+      }
     }
   ],
   "aggregates": {
     "today": {
-      "total": 7,
+      "total": 8,
       "on_time": 1,
-      "late": 6,
+      "late": 7,
       "cancelled": 0,
-      "avg_delay_min": 3.4,
+      "avg_delay_min": 4.8,
       "by_direction": {
         "muenchen": {
           "total": 3,
