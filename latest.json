@@ -1,81 +1,9 @@
 {
-  "generated_at": "2026-08-26T22:00:00.101932+00:00",
+  "generated_at": "2026-08-26T23:00:00.092233+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
   "arrivals": [
-    {
-      "train_id": "3019847486156307519-2608200010-4",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "München Donnersbergerbrücke",
-      "direction_bucket": "muenchen",
-      "scheduled_time": "2026-08-19T22:20:00+00:00",
-      "actual_time": "2026-08-19T22:21:00+00:00",
-      "delay_minutes": 1,
-      "cancelled": false,
-      "train_number": "8731",
-      "terminus_status": "cancelled",
-      "terminus_delay_minutes": null,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": "Information",
-        "cause_code": null,
-        "cause_text": null,
-        "window": {
-          "from": "2026-08-10T12:30:00+00:00",
-          "to": "2026-08-23T21:59:00+00:00"
-        }
-      }
-    },
-    {
-      "train_id": "3688737150640186927-2608192331-29",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "Icking",
-      "direction_bucket": "unknown",
-      "scheduled_time": "2026-08-19T22:40:00+00:00",
-      "actual_time": "2026-08-19T22:42:00+00:00",
-      "delay_minutes": 2,
-      "cancelled": false,
-      "train_number": "8776",
-      "terminus_status": "pending",
-      "terminus_delay_minutes": null,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": "Information",
-        "cause_code": null,
-        "cause_text": null,
-        "window": {
-          "from": "2026-08-10T12:30:00+00:00",
-          "to": "2026-08-23T21:59:00+00:00"
-        }
-      }
-    },
-    {
-      "train_id": "-7613585688605156073-2608200050-4",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "München Donnersbergerbrücke",
-      "direction_bucket": "muenchen",
-      "scheduled_time": "2026-08-19T23:00:00+00:00",
-      "actual_time": "2026-08-19T23:04:00+00:00",
-      "delay_minutes": 4,
-      "cancelled": false,
-      "train_number": "8735",
-      "terminus_status": "cancelled",
-      "terminus_delay_minutes": null,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": "Information",
-        "cause_code": null,
-        "cause_text": null,
-        "window": {
-          "from": "2026-08-10T12:30:00+00:00",
-          "to": "2026-08-23T21:59:00+00:00"
-        }
-      }
-    },
     {
       "train_id": "8245523091580557444-2608200057-11",
       "line": "S7",
@@ -18275,22 +18203,86 @@
       "terminus_delay_minutes": 0,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "3091532148137803907-2608270010-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-08-26T22:20:00+00:00",
+      "actual_time": "2026-08-26T22:21:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8751",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 0,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "4696518332274385163-2608262354-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-08-26T22:20:00+00:00",
+      "actual_time": "2026-08-26T22:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8724",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-4646435823797920390-2608270034-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-08-26T23:00:00+00:00",
+      "actual_time": "2026-08-26T23:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8728",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-7613585688605156073-2608270050-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-08-26T23:00:00+00:00",
+      "actual_time": "2026-08-26T23:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8735",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
     "today": {
-      "total": 0,
+      "total": 4,
       "on_time": 0,
-      "late": 0,
+      "late": 4,
       "cancelled": 0,
-      "avg_delay_min": 0.0,
+      "avg_delay_min": 1.2,
       "by_direction": {
         "muenchen": {
-          "total": 0,
+          "total": 2,
           "on_time": 0,
-          "late": 0,
+          "late": 2,
           "cancelled": 0,
-          "avg_delay_min": 0.0,
+          "avg_delay_min": 1.0,
           "missing": 0
         },
         "wolfratshausen": {
@@ -18304,9 +18296,9 @@
       }
     },
     "last_7_days": {
-      "total": 823,
+      "total": 824,
       "on_time": 92,
-      "late": 704,
+      "late": 705,
       "cancelled": 27,
       "avg_delay_min": 3.8,
       "by_direction": {
@@ -18331,7 +18323,10 @@
   },
   "expected_slots": {
     "today": {
-      "muenchen": [],
+      "muenchen": [
+        "2026-08-26T22:20:00+00:00",
+        "2026-08-26T23:00:00+00:00"
+      ],
       "wolfratshausen": []
     }
   },
@@ -18339,7 +18334,7 @@
     {
       "bucket": "muenchen",
       "zero_match_streak": 0,
-      "updated_at": "2026-08-26T21:35:00.552807+00:00"
+      "updated_at": "2026-08-26T22:55:00.543459+00:00"
     },
     {
       "bucket": "wolfratshausen",
