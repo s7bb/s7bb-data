@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T10:00:00.332325+00:00",
+  "generated_at": "2026-08-28T11:00:00.279799+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-08",
@@ -67822,19 +67822,125 @@
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "-2250390434285923766-2608281210-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-08-28T10:20:00+00:00",
+      "actual_time": "2026-08-28T10:23:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "6759",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "7065398442721290141-2608281154-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-08-28T10:20:00+00:00",
+      "actual_time": "2026-08-28T10:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "6752",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-3818883630044623819-2608281214-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-08-28T10:40:00+00:00",
+      "actual_time": "2026-08-28T10:42:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "6754",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 43,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "2873514735765278587-2608281230-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-08-28T10:40:00+00:00",
+      "actual_time": "2026-08-28T10:42:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "6761",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 0,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 43,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "-2550312231858687828-2608281250-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-08-28T11:00:00+00:00",
+      "actual_time": "2026-08-28T11:02:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "6763",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "208600894542105901-2608281234-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-08-28T11:00:00+00:00",
+      "actual_time": "2026-08-28T11:02:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "6756",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
-    "total": 3169,
+    "total": 3175,
     "on_time": 282,
-    "late": 2707,
+    "late": 2713,
     "cancelled": 180,
     "avg_delay_min": 3.9,
     "by_direction": {
       "muenchen": {
-        "total": 1596,
+        "total": 1599,
         "on_time": 207,
-        "late": 1304,
+        "late": 1307,
         "cancelled": 85,
         "avg_delay_min": 2.9
       },
@@ -68066,9 +68172,9 @@
     },
     {
       "date": "2026-08-28",
-      "total": 45,
+      "total": 51,
       "on_time": 5,
-      "late": 40,
+      "late": 46,
       "cancelled": 0,
       "avg_delay_min": 2.0
     }
@@ -68293,9 +68399,9 @@
       },
       {
         "date": "2026-08-28",
-        "total": 23,
+        "total": 26,
         "on_time": 2,
-        "late": 21,
+        "late": 24,
         "cancelled": 0,
         "avg_delay_min": 2.0
       }
