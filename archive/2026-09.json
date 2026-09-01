@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T13:00:00.139534+00:00",
+  "generated_at": "2026-09-01T14:00:00.147482+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -1118,14 +1118,19 @@
       "direction": "Icking",
       "direction_bucket": "unknown",
       "scheduled_time": "2026-09-01T13:00:00+00:00",
-      "actual_time": "2026-09-01T13:02:00+00:00",
-      "delay_minutes": 2,
+      "actual_time": "2026-09-01T13:03:00+00:00",
+      "delay_minutes": 3,
       "cancelled": false,
       "train_number": "6768",
       "terminus_status": "pending",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null,
-      "disruption": null
+      "disruption": {
+        "category": null,
+        "cause_code": 43,
+        "cause_text": null,
+        "window": null
+      }
     },
     {
       "train_id": "7926389834133945246-2609011450-4",
@@ -1134,27 +1139,153 @@
       "direction": "München Hbf Gl.27-36",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-09-01T13:00:00+00:00",
-      "actual_time": "2026-09-01T13:02:00+00:00",
-      "delay_minutes": 2,
+      "actual_time": "2026-09-01T13:03:00+00:00",
+      "delay_minutes": 3,
       "cancelled": false,
       "train_number": "6775",
       "terminus_status": "arrived",
       "terminus_delay_minutes": 3,
       "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 43,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "7341494634747205339-2609011454-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-01T13:20:00+00:00",
+      "actual_time": "2026-09-01T13:26:00+00:00",
+      "delay_minutes": 6,
+      "cancelled": false,
+      "train_number": "6770",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 48,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "740192054202919294-2609011510-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-01T13:20:00+00:00",
+      "actual_time": "2026-09-01T13:26:00+00:00",
+      "delay_minutes": 6,
+      "cancelled": false,
+      "train_number": "6777",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 43,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "-955498416468771408-2609011514-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-01T13:40:00+00:00",
+      "actual_time": "2026-09-01T13:42:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "6772",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 43,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "5749642195345227041-2609011530-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-01T13:40:00+00:00",
+      "actual_time": "2026-09-01T13:41:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "6779",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": -1,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 44,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "-6030798843770336708-2609011550-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-01T14:00:00+00:00",
+      "actual_time": "2026-09-01T14:04:00+00:00",
+      "delay_minutes": 4,
+      "cancelled": false,
+      "train_number": "6781",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 5,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 43,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "5920869796924016964-2609011534-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-01T14:00:00+00:00",
+      "actual_time": "2026-09-01T14:03:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "6774",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
       "disruption": null
     }
   ],
   "aggregates": {
-    "total": 63,
+    "total": 69,
     "on_time": 5,
-    "late": 56,
+    "late": 62,
     "cancelled": 2,
     "avg_delay_min": 4.5,
     "by_direction": {
       "muenchen": {
-        "total": 32,
+        "total": 35,
         "on_time": 3,
-        "late": 28,
+        "late": 31,
         "cancelled": 1,
         "avg_delay_min": 3.5
       },
@@ -1170,9 +1301,9 @@
   "daily": [
     {
       "date": "2026-09-01",
-      "total": 63,
+      "total": 69,
       "on_time": 5,
-      "late": 56,
+      "late": 62,
       "cancelled": 2,
       "avg_delay_min": 4.5
     }
@@ -1181,9 +1312,9 @@
     "muenchen": [
       {
         "date": "2026-09-01",
-        "total": 32,
+        "total": 35,
         "on_time": 3,
-        "late": 28,
+        "late": 31,
         "cancelled": 1,
         "avg_delay_min": 3.5
       }
