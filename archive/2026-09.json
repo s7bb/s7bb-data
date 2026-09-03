@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T21:00:00.148973+00:00",
+  "generated_at": "2026-09-03T22:00:00.261775+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -6614,19 +6614,83 @@
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "-8649658465084551712-2609032254-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-03T21:20:00+00:00",
+      "actual_time": "2026-09-03T21:20:00+00:00",
+      "delay_minutes": 0,
+      "cancelled": false,
+      "train_number": "8718",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "7207768397154721510-2609032310-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-03T21:20:00+00:00",
+      "actual_time": "2026-09-03T21:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8725",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-7158634658265224361-2609032314-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-03T21:40:00+00:00",
+      "actual_time": "2026-09-03T21:43:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "8720",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "821451240185004773-2609032330-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-03T21:40:00+00:00",
+      "actual_time": "2026-09-03T21:43:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "8747",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
-    "total": 349,
-    "on_time": 29,
-    "late": 304,
+    "total": 353,
+    "on_time": 30,
+    "late": 307,
     "cancelled": 16,
     "avg_delay_min": 4.2,
     "by_direction": {
       "muenchen": {
-        "total": 176,
+        "total": 178,
         "on_time": 21,
-        "late": 147,
+        "late": 149,
         "cancelled": 8,
         "avg_delay_min": 3.3
       },
@@ -6658,11 +6722,11 @@
     },
     {
       "date": "2026-09-03",
-      "total": 111,
-      "on_time": 5,
-      "late": 100,
+      "total": 115,
+      "on_time": 6,
+      "late": 103,
       "cancelled": 6,
-      "avg_delay_min": 4.5
+      "avg_delay_min": 4.4
     }
   ],
   "daily_by_direction": {
@@ -6685,9 +6749,9 @@
       },
       {
         "date": "2026-09-03",
-        "total": 56,
+        "total": 58,
         "on_time": 5,
-        "late": 48,
+        "late": 50,
         "cancelled": 3,
         "avg_delay_min": 3.8
       }
