@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:00:00.239594+00:00",
+  "generated_at": "2026-09-04T23:00:00.163240+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -8596,7 +8596,7 @@
       "delay_minutes": 2,
       "cancelled": false,
       "train_number": "8721",
-      "terminus_status": "pending",
+      "terminus_status": "cancelled",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null,
       "disruption": null
@@ -8628,7 +8628,7 @@
       "delay_minutes": 1,
       "cancelled": false,
       "train_number": "8723",
-      "terminus_status": "pending",
+      "terminus_status": "cancelled",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null,
       "disruption": null
@@ -8676,7 +8676,7 @@
       "delay_minutes": 1,
       "cancelled": false,
       "train_number": "8725",
-      "terminus_status": "pending",
+      "terminus_status": "cancelled",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null,
       "disruption": null
@@ -8712,21 +8712,85 @@
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "-1079525082254889731-2609042357-11",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-04T22:20:00+00:00",
+      "actual_time": "2026-09-04T22:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8724",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "3019847486156307519-2609050010-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Donnersbergerbrücke",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-04T22:20:00+00:00",
+      "actual_time": "2026-09-04T22:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8731",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-7613585688605156073-2609050050-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Donnersbergerbrücke",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-04T23:00:00+00:00",
+      "actual_time": "2026-09-04T23:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8735",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "2015193418408313956-2609050037-11",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-04T23:00:00+00:00",
+      "actual_time": "2026-09-04T23:03:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "8728",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
-    "total": 472,
+    "total": 476,
     "on_time": 38,
-    "late": 416,
+    "late": 420,
     "cancelled": 18,
     "avg_delay_min": 3.9,
     "by_direction": {
       "muenchen": {
-        "total": 238,
+        "total": 240,
         "on_time": 28,
-        "late": 201,
+        "late": 203,
         "cancelled": 9,
-        "avg_delay_min": 3.1
+        "avg_delay_min": 3.0
       },
       "wolfratshausen": {
         "total": 0,
@@ -8764,9 +8828,9 @@
     },
     {
       "date": "2026-09-04",
-      "total": 115,
+      "total": 119,
       "on_time": 8,
-      "late": 105,
+      "late": 109,
       "cancelled": 2,
       "avg_delay_min": 3.0
     }
@@ -8799,9 +8863,9 @@
       },
       {
         "date": "2026-09-04",
-        "total": 58,
+        "total": 60,
         "on_time": 7,
-        "late": 50,
+        "late": 52,
         "cancelled": 1,
         "avg_delay_min": 2.3
       }
