@@ -1,30 +1,9 @@
 {
-  "generated_at": "2026-09-07T23:00:00.055199+00:00",
+  "generated_at": "2026-09-08T00:00:00.079104+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
   "arrivals": [
-    {
-      "train_id": "3896499363414029360-2609010134-12",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "Icking",
-      "direction_bucket": "unknown",
-      "scheduled_time": "2026-09-01T00:00:00+00:00",
-      "actual_time": "2026-09-01T00:26:00+00:00",
-      "delay_minutes": 26,
-      "cancelled": false,
-      "train_number": "8734",
-      "terminus_status": "pending",
-      "terminus_delay_minutes": null,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": null,
-        "cause_code": 48,
-        "cause_text": null,
-        "window": null
-      }
-    },
     {
       "train_id": "1441167966002783203-2609010430-4",
       "line": "S7",
@@ -15001,15 +14980,31 @@
       "terminus_delay_minutes": 2,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "3896499363414029360-2609080134-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-08T00:00:00+00:00",
+      "actual_time": "2026-09-08T00:03:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "8734",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
     "today": {
-      "total": 4,
+      "total": 5,
       "on_time": 0,
-      "late": 4,
+      "late": 5,
       "cancelled": 0,
-      "avg_delay_min": 2.2,
+      "avg_delay_min": 2.4,
       "by_direction": {
         "muenchen": {
           "total": 2,
