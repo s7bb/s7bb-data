@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T23:00:00.186892+00:00",
+  "generated_at": "2026-09-09T00:00:00.197060+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -17091,20 +17091,52 @@
       "direction": "München Ost",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-09-08T23:00:00+00:00",
-      "actual_time": "2026-09-08T23:02:00+00:00",
-      "delay_minutes": 2,
+      "actual_time": "2026-09-08T23:01:00+00:00",
+      "delay_minutes": 1,
       "cancelled": false,
       "train_number": "8795",
       "terminus_status": "arrived",
       "terminus_delay_minutes": 4,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "2925508973884668591-2609090043-18",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-08T23:20:00+00:00",
+      "actual_time": "2026-09-08T23:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8790",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-1970678683107046145-2609090123-18",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-09T00:00:00+00:00",
+      "actual_time": "2026-09-09T00:02:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8794",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
-    "total": 938,
+    "total": 940,
     "on_time": 72,
-    "late": 846,
+    "late": 848,
     "cancelled": 20,
     "avg_delay_min": 3.6,
     "by_direction": {
@@ -17183,11 +17215,19 @@
     },
     {
       "date": "2026-09-08",
-      "total": 116,
+      "total": 117,
       "on_time": 5,
-      "late": 110,
+      "late": 111,
       "cancelled": 1,
       "avg_delay_min": 3.3
+    },
+    {
+      "date": "2026-09-09",
+      "total": 1,
+      "on_time": 0,
+      "late": 1,
+      "cancelled": 0,
+      "avg_delay_min": 2.0
     }
   ],
   "daily_by_direction": {
