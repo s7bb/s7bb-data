@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T23:00:00.223678+00:00",
+  "generated_at": "2026-09-12T00:00:00.210100+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -24036,27 +24036,85 @@
       "direction": "Aying",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-09-11T23:00:00+00:00",
-      "actual_time": "2026-09-11T23:02:00+00:00",
-      "delay_minutes": 2,
+      "actual_time": "2026-09-11T23:03:00+00:00",
+      "delay_minutes": 3,
       "cancelled": false,
       "train_number": "8795",
       "terminus_status": "arrived",
       "terminus_delay_minutes": 3,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "-3976054376617662651-2609120021-27",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-11T23:20:00+00:00",
+      "actual_time": "2026-09-11T23:24:00+00:00",
+      "delay_minutes": 4,
+      "cancelled": false,
+      "train_number": "8790",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 43,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "-5467111130472445544-2609120150-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Aying",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-12T00:00:00+00:00",
+      "actual_time": "2026-09-12T00:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8797",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 6,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "262241449948024395-2609120051-29",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-12T00:00:00+00:00",
+      "actual_time": "2026-09-12T00:07:00+00:00",
+      "delay_minutes": 7,
+      "cancelled": false,
+      "train_number": "8794",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 43,
+        "cause_text": null,
+        "window": null
+      }
     }
   ],
   "aggregates": {
-    "total": 1294,
+    "total": 1297,
     "on_time": 107,
-    "late": 1164,
+    "late": 1167,
     "cancelled": 23,
     "avg_delay_min": 3.9,
     "by_direction": {
       "muenchen": {
-        "total": 651,
+        "total": 652,
         "on_time": 79,
-        "late": 562,
+        "late": 563,
         "cancelled": 10,
         "avg_delay_min": 2.9
       },
@@ -24152,11 +24210,19 @@
     },
     {
       "date": "2026-09-11",
-      "total": 119,
+      "total": 120,
       "on_time": 10,
-      "late": 109,
+      "late": 110,
       "cancelled": 0,
       "avg_delay_min": 3.4
+    },
+    {
+      "date": "2026-09-12",
+      "total": 2,
+      "on_time": 0,
+      "late": 2,
+      "cancelled": 0,
+      "avg_delay_min": 4.0
     }
   ],
   "daily_by_direction": {
@@ -24248,6 +24314,14 @@
         "late": 53,
         "cancelled": 0,
         "avg_delay_min": 2.5
+      },
+      {
+        "date": "2026-09-12",
+        "total": 1,
+        "on_time": 0,
+        "late": 1,
+        "cancelled": 0,
+        "avg_delay_min": 1.0
       }
     ],
     "wolfratshausen": []
