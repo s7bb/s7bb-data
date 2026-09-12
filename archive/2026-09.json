@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:00:00.256170+00:00",
+  "generated_at": "2026-09-12T11:00:00.192011+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -24791,8 +24791,8 @@
       "direction": "Höhenkirchen-Siegertsbrunn",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-09-12T10:00:00+00:00",
-      "actual_time": "2026-09-12T10:03:00+00:00",
-      "delay_minutes": 3,
+      "actual_time": "2026-09-12T10:02:00+00:00",
+      "delay_minutes": 2,
       "cancelled": false,
       "train_number": "6057",
       "terminus_status": "arrived",
@@ -24815,8 +24815,8 @@
       "direction": "Icking",
       "direction_bucket": "unknown",
       "scheduled_time": "2026-09-12T10:00:00+00:00",
-      "actual_time": "2026-09-12T10:11:00+00:00",
-      "delay_minutes": 11,
+      "actual_time": "2026-09-12T10:19:00+00:00",
+      "delay_minutes": 19,
       "cancelled": false,
       "train_number": "6050",
       "terminus_status": "pending",
@@ -24831,20 +24831,145 @@
           "to": "2026-09-12T10:30:00+00:00"
         }
       }
+    },
+    {
+      "train_id": "-3313622106127293558-2609121210-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Aying",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-12T10:20:00+00:00",
+      "actual_time": "2026-09-12T10:20:00+00:00",
+      "delay_minutes": 0,
+      "cancelled": false,
+      "train_number": "6059",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 5,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "204907125634837020-2609121111-29",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-12T10:20:00+00:00",
+      "actual_time": null,
+      "delay_minutes": null,
+      "cancelled": true,
+      "train_number": "6052",
+      "terminus_status": null,
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 43,
+        "cause_text": null,
+        "window": {
+          "from": "2026-09-12T09:29:00+00:00",
+          "to": "2026-09-12T10:30:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "-3739698454966514429-2609121131-29",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-12T10:40:00+00:00",
+      "actual_time": "2026-09-12T10:43:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "6054",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-09-12T09:29:00+00:00",
+          "to": "2026-09-12T10:30:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "3209900880745388614-2609121230-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Aying",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-12T10:40:00+00:00",
+      "actual_time": "2026-09-12T10:43:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "6061",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 4,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-54977685078084999-2609121201-27",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-12T11:00:00+00:00",
+      "actual_time": "2026-09-12T11:03:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "6056",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Störung",
+        "cause_code": 43,
+        "cause_text": null,
+        "window": {
+          "from": "2026-09-12T09:29:00+00:00",
+          "to": "2026-09-12T10:30:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "6637019946528487884-2609121250-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Höhenkirchen-Siegertsbrunn",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-12T11:00:00+00:00",
+      "actual_time": null,
+      "delay_minutes": null,
+      "cancelled": true,
+      "train_number": "6063",
+      "terminus_status": null,
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 40,
+        "cause_text": null,
+        "window": null
+      }
     }
   ],
   "aggregates": {
-    "total": 1336,
-    "on_time": 112,
-    "late": 1200,
-    "cancelled": 24,
+    "total": 1342,
+    "on_time": 113,
+    "late": 1203,
+    "cancelled": 26,
     "avg_delay_min": 3.8,
     "by_direction": {
       "muenchen": {
-        "total": 672,
-        "on_time": 82,
-        "late": 579,
-        "cancelled": 11,
+        "total": 675,
+        "on_time": 83,
+        "late": 580,
+        "cancelled": 12,
         "avg_delay_min": 2.9
       },
       "wolfratshausen": {
@@ -24947,11 +25072,11 @@
     },
     {
       "date": "2026-09-12",
-      "total": 41,
-      "on_time": 5,
-      "late": 35,
-      "cancelled": 1,
-      "avg_delay_min": 2.2
+      "total": 47,
+      "on_time": 6,
+      "late": 38,
+      "cancelled": 3,
+      "avg_delay_min": 2.3
     }
   ],
   "daily_by_direction": {
@@ -25046,10 +25171,10 @@
       },
       {
         "date": "2026-09-12",
-        "total": 21,
-        "on_time": 3,
-        "late": 17,
-        "cancelled": 1,
+        "total": 24,
+        "on_time": 4,
+        "late": 18,
+        "cancelled": 2,
         "avg_delay_min": 1.6
       }
     ],
