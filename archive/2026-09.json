@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:00:00.210100+00:00",
+  "generated_at": "2026-09-12T01:00:00.187418+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -24073,8 +24073,8 @@
       "direction": "Aying",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-09-12T00:00:00+00:00",
-      "actual_time": "2026-09-12T00:01:00+00:00",
-      "delay_minutes": 1,
+      "actual_time": "2026-09-12T00:00:00+00:00",
+      "delay_minutes": 0,
       "cancelled": false,
       "train_number": "8797",
       "terminus_status": "arrived",
@@ -24089,10 +24089,31 @@
       "direction": "Icking",
       "direction_bucket": "unknown",
       "scheduled_time": "2026-09-12T00:00:00+00:00",
-      "actual_time": "2026-09-12T00:07:00+00:00",
-      "delay_minutes": 7,
+      "actual_time": "2026-09-12T00:14:00+00:00",
+      "delay_minutes": 14,
       "cancelled": false,
       "train_number": "8794",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 43,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "1014260822960174133-2609120151-29",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-12T01:00:00+00:00",
+      "actual_time": "2026-09-12T01:03:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "8796",
       "terminus_status": "pending",
       "terminus_delay_minutes": null,
       "terminus_short_turn_station": null,
@@ -24105,16 +24126,16 @@
     }
   ],
   "aggregates": {
-    "total": 1297,
-    "on_time": 107,
+    "total": 1298,
+    "on_time": 108,
     "late": 1167,
     "cancelled": 23,
     "avg_delay_min": 3.9,
     "by_direction": {
       "muenchen": {
         "total": 652,
-        "on_time": 79,
-        "late": 563,
+        "on_time": 80,
+        "late": 562,
         "cancelled": 10,
         "avg_delay_min": 2.9
       },
@@ -24218,11 +24239,11 @@
     },
     {
       "date": "2026-09-12",
-      "total": 2,
-      "on_time": 0,
+      "total": 3,
+      "on_time": 1,
       "late": 2,
       "cancelled": 0,
-      "avg_delay_min": 4.0
+      "avg_delay_min": 5.7
     }
   ],
   "daily_by_direction": {
@@ -24318,10 +24339,10 @@
       {
         "date": "2026-09-12",
         "total": 1,
-        "on_time": 0,
-        "late": 1,
+        "on_time": 1,
+        "late": 0,
         "cancelled": 0,
-        "avg_delay_min": 1.0
+        "avg_delay_min": 0.0
       }
     ],
     "wolfratshausen": []
