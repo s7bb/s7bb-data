@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T15:00:00.196653+00:00",
+  "generated_at": "2026-09-13T16:00:00.202827+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -27371,20 +27371,62 @@
         "cause_text": null,
         "window": null
       }
+    },
+    {
+      "train_id": "6765528017270107359-2609131710-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Aying",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-13T15:20:00+00:00",
+      "actual_time": null,
+      "delay_minutes": null,
+      "cancelled": true,
+      "train_number": "6089",
+      "terminus_status": null,
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 31,
+        "cause_text": null,
+        "window": null
+      }
+    },
+    {
+      "train_id": "-1958411760909503688-2609131730-4",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Aying",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-13T15:40:00+00:00",
+      "actual_time": null,
+      "delay_minutes": null,
+      "cancelled": true,
+      "train_number": "6091",
+      "terminus_status": null,
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 31,
+        "cause_text": null,
+        "window": null
+      }
     }
   ],
   "aggregates": {
-    "total": 1482,
+    "total": 1484,
     "on_time": 133,
     "late": 1310,
-    "cancelled": 39,
+    "cancelled": 41,
     "avg_delay_min": 3.7,
     "by_direction": {
       "muenchen": {
-        "total": 745,
+        "total": 747,
         "on_time": 96,
         "late": 631,
-        "cancelled": 18,
+        "cancelled": 20,
         "avg_delay_min": 2.8
       },
       "wolfratshausen": {
@@ -27495,10 +27537,10 @@
     },
     {
       "date": "2026-09-13",
-      "total": 71,
+      "total": 73,
       "on_time": 11,
       "late": 51,
-      "cancelled": 9,
+      "cancelled": 11,
       "avg_delay_min": 1.5
     }
   ],
@@ -27602,10 +27644,10 @@
       },
       {
         "date": "2026-09-13",
-        "total": 36,
+        "total": 38,
         "on_time": 6,
         "late": 26,
-        "cancelled": 4,
+        "cancelled": 6,
         "avg_delay_min": 1.4
       }
     ],
