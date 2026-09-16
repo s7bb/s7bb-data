@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T23:00:00.196545+00:00",
+  "generated_at": "2026-09-16T00:00:00.211480+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -32039,8 +32039,8 @@
       "direction": "Icking",
       "direction_bucket": "unknown",
       "scheduled_time": "2026-09-15T23:00:00+00:00",
-      "actual_time": "2026-09-15T23:02:00+00:00",
-      "delay_minutes": 2,
+      "actual_time": "2026-09-15T23:01:00+00:00",
+      "delay_minutes": 1,
       "cancelled": false,
       "train_number": "8728",
       "terminus_status": "pending",
@@ -32073,12 +32073,33 @@
         "cause_text": null,
         "window": null
       }
+    },
+    {
+      "train_id": "3896499363414029360-2609160134-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Icking",
+      "direction_bucket": "unknown",
+      "scheduled_time": "2026-09-16T00:00:00+00:00",
+      "actual_time": "2026-09-16T00:04:00+00:00",
+      "delay_minutes": 4,
+      "cancelled": false,
+      "train_number": "8734",
+      "terminus_status": "pending",
+      "terminus_delay_minutes": null,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": null,
+        "cause_code": 31,
+        "cause_text": null,
+        "window": null
+      }
     }
   ],
   "aggregates": {
-    "total": 1721,
+    "total": 1722,
     "on_time": 155,
-    "late": 1516,
+    "late": 1517,
     "cancelled": 50,
     "avg_delay_min": 3.9,
     "by_direction": {
@@ -32218,6 +32239,14 @@
       "late": 108,
       "cancelled": 4,
       "avg_delay_min": 5.7
+    },
+    {
+      "date": "2026-09-16",
+      "total": 1,
+      "on_time": 0,
+      "late": 1,
+      "cancelled": 0,
+      "avg_delay_min": 4.0
     }
   ],
   "daily_by_direction": {
