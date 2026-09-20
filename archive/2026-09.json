@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T23:00:00.233688+00:00",
+  "generated_at": "2026-09-20T00:00:00.276084+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -42434,8 +42434,8 @@
       "direction": "Wolfratshausen",
       "direction_bucket": "wolfratshausen",
       "scheduled_time": "2026-09-19T23:00:00+00:00",
-      "actual_time": "2026-09-19T23:06:00+00:00",
-      "delay_minutes": 6,
+      "actual_time": "2026-09-19T23:05:00+00:00",
+      "delay_minutes": 5,
       "cancelled": false,
       "train_number": "8728",
       "terminus_status": "arrived",
@@ -42458,8 +42458,8 @@
       "direction": "München Hbf Gl.27-36",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-09-19T23:00:00+00:00",
-      "actual_time": "2026-09-19T23:07:00+00:00",
-      "delay_minutes": 7,
+      "actual_time": "2026-09-19T23:05:00+00:00",
+      "delay_minutes": 5,
       "cancelled": false,
       "train_number": "8735",
       "terminus_status": "arrived",
@@ -42474,28 +42474,76 @@
           "to": "2026-09-21T08:00:00+00:00"
         }
       }
+    },
+    {
+      "train_id": "3896499363414029360-2609200134-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-09-20T00:00:00+00:00",
+      "actual_time": "2026-09-20T00:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8734",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Bauarbeiten",
+        "cause_code": 18,
+        "cause_text": null,
+        "window": {
+          "from": "2026-09-18T08:26:00+00:00",
+          "to": "2026-09-21T08:00:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "4909175930471679136-2609200143-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-20T00:00:00+00:00",
+      "actual_time": "2026-09-20T00:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8741",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Bauarbeiten",
+        "cause_code": 18,
+        "cause_text": null,
+        "window": {
+          "from": "2026-09-18T08:26:00+00:00",
+          "to": "2026-09-21T08:00:00+00:00"
+        }
+      }
     }
   ],
   "aggregates": {
-    "total": 2184,
+    "total": 2186,
     "on_time": 166,
-    "late": 1958,
+    "late": 1960,
     "cancelled": 60,
     "avg_delay_min": 4.2,
     "by_direction": {
       "muenchen": {
-        "total": 1100,
+        "total": 1101,
         "on_time": 119,
-        "late": 951,
+        "late": 952,
         "cancelled": 30,
         "avg_delay_min": 3.2
       },
       "wolfratshausen": {
-        "total": 111,
+        "total": 112,
         "on_time": 3,
-        "late": 105,
+        "late": 106,
         "cancelled": 3,
-        "avg_delay_min": 6.4
+        "avg_delay_min": 6.3
       }
     }
   },
@@ -42650,7 +42698,15 @@
       "on_time": 1,
       "late": 106,
       "cancelled": 0,
-      "avg_delay_min": 4.6
+      "avg_delay_min": 4.5
+    },
+    {
+      "date": "2026-09-20",
+      "total": 2,
+      "on_time": 0,
+      "late": 2,
+      "cancelled": 0,
+      "avg_delay_min": 1.0
     }
   ],
   "daily_by_direction": {
@@ -42806,6 +42862,14 @@
         "late": 54,
         "cancelled": 0,
         "avg_delay_min": 4.1
+      },
+      {
+        "date": "2026-09-20",
+        "total": 1,
+        "on_time": 0,
+        "late": 1,
+        "cancelled": 0,
+        "avg_delay_min": 1.0
       }
     ],
     "wolfratshausen": [
@@ -42824,6 +42888,14 @@
         "late": 52,
         "cancelled": 0,
         "avg_delay_min": 5.0
+      },
+      {
+        "date": "2026-09-20",
+        "total": 1,
+        "on_time": 0,
+        "late": 1,
+        "cancelled": 0,
+        "avg_delay_min": 1.0
       }
     ]
   }
