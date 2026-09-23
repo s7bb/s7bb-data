@@ -1,105 +1,9 @@
 {
-  "generated_at": "2026-09-23T21:00:00.066257+00:00",
+  "generated_at": "2026-09-23T22:00:00.080465+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
   "arrivals": [
-    {
-      "train_id": "-8649658465084551712-2609162254-12",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "Icking",
-      "direction_bucket": "unknown",
-      "scheduled_time": "2026-09-16T21:20:00+00:00",
-      "actual_time": "2026-09-16T21:34:00+00:00",
-      "delay_minutes": 14,
-      "cancelled": false,
-      "train_number": "8718",
-      "terminus_status": "pending",
-      "terminus_delay_minutes": null,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": "Störung",
-        "cause_code": 43,
-        "cause_text": null,
-        "window": {
-          "from": "2026-09-16T18:18:00+00:00",
-          "to": "2026-09-16T23:00:00+00:00"
-        }
-      }
-    },
-    {
-      "train_id": "7207768397154721510-2609162310-4",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "München Hbf Gl.27-36",
-      "direction_bucket": "muenchen",
-      "scheduled_time": "2026-09-16T21:20:00+00:00",
-      "actual_time": "2026-09-16T21:23:00+00:00",
-      "delay_minutes": 3,
-      "cancelled": false,
-      "train_number": "8725",
-      "terminus_status": "arrived",
-      "terminus_delay_minutes": 3,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": "Störung",
-        "cause_code": 43,
-        "cause_text": null,
-        "window": {
-          "from": "2026-09-16T18:18:00+00:00",
-          "to": "2026-09-16T23:00:00+00:00"
-        }
-      }
-    },
-    {
-      "train_id": "-7158634658265224361-2609162314-12",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "Icking",
-      "direction_bucket": "unknown",
-      "scheduled_time": "2026-09-16T21:40:00+00:00",
-      "actual_time": "2026-09-16T21:52:00+00:00",
-      "delay_minutes": 12,
-      "cancelled": false,
-      "train_number": "8720",
-      "terminus_status": "pending",
-      "terminus_delay_minutes": null,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": "Störung",
-        "cause_code": 43,
-        "cause_text": null,
-        "window": {
-          "from": "2026-09-16T18:18:00+00:00",
-          "to": "2026-09-16T23:00:00+00:00"
-        }
-      }
-    },
-    {
-      "train_id": "821451240185004773-2609162330-4",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "München Hbf Gl.27-36",
-      "direction_bucket": "muenchen",
-      "scheduled_time": "2026-09-16T21:40:00+00:00",
-      "actual_time": "2026-09-16T21:52:00+00:00",
-      "delay_minutes": 12,
-      "cancelled": false,
-      "train_number": "8747",
-      "terminus_status": "arrived",
-      "terminus_delay_minutes": 9,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": "Störung",
-        "cause_code": 43,
-        "cause_text": null,
-        "window": {
-          "from": "2026-09-16T18:18:00+00:00",
-          "to": "2026-09-16T23:00:00+00:00"
-        }
-      }
-    },
     {
       "train_id": "3091532148137803907-2609170010-4",
       "line": "S7",
@@ -18686,30 +18590,126 @@
           "to": "2026-09-28T19:00:00+00:00"
         }
       }
+    },
+    {
+      "train_id": "-8649658465084551712-2609232254-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-09-23T21:20:00+00:00",
+      "actual_time": "2026-09-23T21:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8718",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 4,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Bauarbeiten",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-09-22T19:07:00+00:00",
+          "to": "2026-09-28T19:00:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "8789838779519040058-2609232303-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-23T21:20:00+00:00",
+      "actual_time": "2026-09-23T21:22:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8725",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 4,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Bauarbeiten",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-09-22T19:07:00+00:00",
+          "to": "2026-09-28T19:00:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "-7158634658265224361-2609232314-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-09-23T21:40:00+00:00",
+      "actual_time": "2026-09-23T21:42:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8720",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 0,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Bauarbeiten",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-09-22T19:07:00+00:00",
+          "to": "2026-09-28T19:00:00+00:00"
+        }
+      }
+    },
+    {
+      "train_id": "8366045368564222798-2609232323-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-23T21:40:00+00:00",
+      "actual_time": "2026-09-23T21:42:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8727",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 4,
+      "terminus_short_turn_station": null,
+      "disruption": {
+        "category": "Bauarbeiten",
+        "cause_code": null,
+        "cause_text": null,
+        "window": {
+          "from": "2026-09-22T19:07:00+00:00",
+          "to": "2026-09-28T19:00:00+00:00"
+        }
+      }
     }
   ],
   "aggregates": {
     "today": {
-      "total": 115,
-      "on_time": 19,
-      "late": 91,
-      "cancelled": 5,
-      "avg_delay_min": 3.0,
+      "total": 0,
+      "on_time": 0,
+      "late": 0,
+      "cancelled": 0,
+      "avg_delay_min": 0.0,
       "by_direction": {
         "muenchen": {
-          "total": 58,
-          "on_time": 11,
-          "late": 45,
-          "cancelled": 2,
-          "avg_delay_min": 2.2,
+          "total": 0,
+          "on_time": 0,
+          "late": 0,
+          "cancelled": 0,
+          "avg_delay_min": 0.0,
           "missing": 0
         },
         "wolfratshausen": {
-          "total": 57,
-          "on_time": 8,
-          "late": 46,
-          "cancelled": 3,
-          "avg_delay_min": 3.9,
+          "total": 0,
+          "on_time": 0,
+          "late": 0,
+          "cancelled": 0,
+          "avg_delay_min": 0.0,
           "missing": 0
         }
       }
@@ -18726,15 +18726,15 @@
           "on_time": 29,
           "late": 362,
           "cancelled": 13,
-          "avg_delay_min": 4.6,
+          "avg_delay_min": 4.5,
           "missing": 0
         },
         "wolfratshausen": {
-          "total": 335,
+          "total": 337,
           "on_time": 19,
-          "late": 303,
+          "late": 305,
           "cancelled": 13,
-          "avg_delay_min": 6.0,
+          "avg_delay_min": 5.9,
           "missing": 0
         }
       }
@@ -18742,137 +18742,20 @@
   },
   "expected_slots": {
     "today": {
-      "muenchen": [
-        "2026-09-22T22:20:00+00:00",
-        "2026-09-22T23:00:00+00:00",
-        "2026-09-23T02:40:00+00:00",
-        "2026-09-23T03:00:00+00:00",
-        "2026-09-23T03:20:00+00:00",
-        "2026-09-23T03:40:00+00:00",
-        "2026-09-23T04:00:00+00:00",
-        "2026-09-23T04:20:00+00:00",
-        "2026-09-23T04:40:00+00:00",
-        "2026-09-23T05:00:00+00:00",
-        "2026-09-23T05:20:00+00:00",
-        "2026-09-23T05:40:00+00:00",
-        "2026-09-23T06:00:00+00:00",
-        "2026-09-23T06:20:00+00:00",
-        "2026-09-23T06:40:00+00:00",
-        "2026-09-23T07:00:00+00:00",
-        "2026-09-23T07:20:00+00:00",
-        "2026-09-23T07:40:00+00:00",
-        "2026-09-23T08:00:00+00:00",
-        "2026-09-23T08:20:00+00:00",
-        "2026-09-23T08:40:00+00:00",
-        "2026-09-23T09:00:00+00:00",
-        "2026-09-23T09:20:00+00:00",
-        "2026-09-23T09:40:00+00:00",
-        "2026-09-23T10:00:00+00:00",
-        "2026-09-23T10:20:00+00:00",
-        "2026-09-23T10:40:00+00:00",
-        "2026-09-23T11:00:00+00:00",
-        "2026-09-23T11:20:00+00:00",
-        "2026-09-23T11:40:00+00:00",
-        "2026-09-23T12:00:00+00:00",
-        "2026-09-23T12:20:00+00:00",
-        "2026-09-23T12:40:00+00:00",
-        "2026-09-23T13:00:00+00:00",
-        "2026-09-23T13:20:00+00:00",
-        "2026-09-23T13:40:00+00:00",
-        "2026-09-23T14:00:00+00:00",
-        "2026-09-23T14:20:00+00:00",
-        "2026-09-23T14:40:00+00:00",
-        "2026-09-23T15:00:00+00:00",
-        "2026-09-23T15:20:00+00:00",
-        "2026-09-23T15:40:00+00:00",
-        "2026-09-23T16:00:00+00:00",
-        "2026-09-23T16:20:00+00:00",
-        "2026-09-23T16:40:00+00:00",
-        "2026-09-23T17:00:00+00:00",
-        "2026-09-23T17:20:00+00:00",
-        "2026-09-23T17:40:00+00:00",
-        "2026-09-23T18:00:00+00:00",
-        "2026-09-23T18:20:00+00:00",
-        "2026-09-23T18:40:00+00:00",
-        "2026-09-23T19:00:00+00:00",
-        "2026-09-23T19:20:00+00:00",
-        "2026-09-23T19:40:00+00:00",
-        "2026-09-23T20:00:00+00:00",
-        "2026-09-23T20:20:00+00:00",
-        "2026-09-23T20:40:00+00:00",
-        "2026-09-23T21:00:00+00:00"
-      ],
-      "wolfratshausen": [
-        "2026-09-22T22:20:00+00:00",
-        "2026-09-22T23:00:00+00:00",
-        "2026-09-23T00:00:00+00:00",
-        "2026-09-23T03:20:00+00:00",
-        "2026-09-23T03:40:00+00:00",
-        "2026-09-23T04:00:00+00:00",
-        "2026-09-23T04:20:00+00:00",
-        "2026-09-23T04:40:00+00:00",
-        "2026-09-23T05:00:00+00:00",
-        "2026-09-23T05:20:00+00:00",
-        "2026-09-23T05:40:00+00:00",
-        "2026-09-23T06:00:00+00:00",
-        "2026-09-23T06:20:00+00:00",
-        "2026-09-23T06:40:00+00:00",
-        "2026-09-23T07:00:00+00:00",
-        "2026-09-23T07:20:00+00:00",
-        "2026-09-23T07:40:00+00:00",
-        "2026-09-23T08:00:00+00:00",
-        "2026-09-23T08:20:00+00:00",
-        "2026-09-23T08:40:00+00:00",
-        "2026-09-23T09:00:00+00:00",
-        "2026-09-23T09:20:00+00:00",
-        "2026-09-23T09:40:00+00:00",
-        "2026-09-23T10:00:00+00:00",
-        "2026-09-23T10:20:00+00:00",
-        "2026-09-23T10:40:00+00:00",
-        "2026-09-23T11:00:00+00:00",
-        "2026-09-23T11:20:00+00:00",
-        "2026-09-23T11:40:00+00:00",
-        "2026-09-23T12:00:00+00:00",
-        "2026-09-23T12:20:00+00:00",
-        "2026-09-23T12:40:00+00:00",
-        "2026-09-23T13:00:00+00:00",
-        "2026-09-23T13:20:00+00:00",
-        "2026-09-23T13:40:00+00:00",
-        "2026-09-23T14:00:00+00:00",
-        "2026-09-23T14:20:00+00:00",
-        "2026-09-23T14:40:00+00:00",
-        "2026-09-23T15:00:00+00:00",
-        "2026-09-23T15:20:00+00:00",
-        "2026-09-23T15:40:00+00:00",
-        "2026-09-23T16:00:00+00:00",
-        "2026-09-23T16:20:00+00:00",
-        "2026-09-23T16:40:00+00:00",
-        "2026-09-23T17:00:00+00:00",
-        "2026-09-23T17:20:00+00:00",
-        "2026-09-23T17:40:00+00:00",
-        "2026-09-23T18:00:00+00:00",
-        "2026-09-23T18:20:00+00:00",
-        "2026-09-23T18:40:00+00:00",
-        "2026-09-23T19:00:00+00:00",
-        "2026-09-23T19:20:00+00:00",
-        "2026-09-23T19:40:00+00:00",
-        "2026-09-23T20:00:00+00:00",
-        "2026-09-23T20:20:00+00:00",
-        "2026-09-23T20:40:00+00:00",
-        "2026-09-23T21:00:00+00:00"
-      ]
+      "muenchen": [],
+      "wolfratshausen": []
     }
   },
   "terminus_health": [
     {
       "bucket": "muenchen",
       "zero_match_streak": 0,
-      "updated_at": "2026-09-23T20:55:00.512479+00:00"
+      "updated_at": "2026-09-23T21:35:00.513120+00:00"
     },
     {
       "bucket": "wolfratshausen",
       "zero_match_streak": 0,
-      "updated_at": "2026-09-23T20:55:00.512479+00:00"
+      "updated_at": "2026-09-23T21:35:00.513120+00:00"
     }
   ]
 }
