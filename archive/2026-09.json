@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:00:00.467112+00:00",
+  "generated_at": "2026-09-30T23:00:00.318645+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -71075,28 +71075,92 @@
       "terminus_delay_minutes": 5,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "1158215719295097093-2610010003-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-30T22:20:00+00:00",
+      "actual_time": "2026-09-30T22:24:00+00:00",
+      "delay_minutes": 4,
+      "cancelled": false,
+      "train_number": "8731",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 6,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "4696518332274385163-2609302354-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-09-30T22:20:00+00:00",
+      "actual_time": "2026-09-30T22:24:00+00:00",
+      "delay_minutes": 4,
+      "cancelled": false,
+      "train_number": "8724",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 5,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-4646435823797920390-2610010034-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-09-30T23:00:00+00:00",
+      "actual_time": "2026-09-30T23:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8728",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-5015977148636198963-2610010043-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-09-30T23:00:00+00:00",
+      "actual_time": "2026-09-30T23:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8735",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
-    "total": 3443,
+    "total": 3447,
     "on_time": 244,
-    "late": 3102,
+    "late": 3106,
     "cancelled": 97,
     "avg_delay_min": 4.2,
     "by_direction": {
       "muenchen": {
-        "total": 1734,
+        "total": 1736,
         "on_time": 169,
-        "late": 1517,
+        "late": 1519,
         "cancelled": 48,
         "avg_delay_min": 3.3
       },
       "wolfratshausen": {
-        "total": 736,
+        "total": 738,
         "on_time": 31,
-        "late": 683,
+        "late": 685,
         "cancelled": 22,
-        "avg_delay_min": 5.3
+        "avg_delay_min": 5.2
       }
     }
   },
@@ -71335,9 +71399,9 @@
     },
     {
       "date": "2026-09-30",
-      "total": 115,
+      "total": 119,
       "on_time": 0,
-      "late": 113,
+      "late": 117,
       "cancelled": 2,
       "avg_delay_min": 3.6
     }
@@ -71578,9 +71642,9 @@
       },
       {
         "date": "2026-09-30",
-        "total": 58,
+        "total": 60,
         "on_time": 0,
-        "late": 57,
+        "late": 59,
         "cancelled": 1,
         "avg_delay_min": 3.2
       }
@@ -71684,11 +71748,11 @@
       },
       {
         "date": "2026-09-30",
-        "total": 57,
+        "total": 59,
         "on_time": 0,
-        "late": 56,
+        "late": 58,
         "cancelled": 1,
-        "avg_delay_min": 4.1
+        "avg_delay_min": 4.0
       }
     ]
   }
