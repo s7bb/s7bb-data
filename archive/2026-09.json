@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T23:00:00.294400+00:00",
+  "generated_at": "2026-09-30T00:00:00.364701+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-09",
@@ -69022,36 +69022,52 @@
       "direction": "München Hbf Gl.27-36",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-09-29T23:00:00+00:00",
-      "actual_time": "2026-09-29T23:02:00+00:00",
-      "delay_minutes": 2,
+      "actual_time": "2026-09-29T23:00:00+00:00",
+      "delay_minutes": 0,
       "cancelled": false,
       "train_number": "8735",
       "terminus_status": "arrived",
       "terminus_delay_minutes": 3,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "3896499363414029360-2609300134-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-09-30T00:00:00+00:00",
+      "actual_time": "2026-09-30T00:02:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8734",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 4,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
-    "total": 3328,
-    "on_time": 243,
+    "total": 3329,
+    "on_time": 244,
     "late": 2990,
     "cancelled": 95,
     "avg_delay_min": 4.3,
     "by_direction": {
       "muenchen": {
         "total": 1676,
-        "on_time": 168,
-        "late": 1461,
+        "on_time": 169,
+        "late": 1460,
         "cancelled": 47,
         "avg_delay_min": 3.4
       },
       "wolfratshausen": {
-        "total": 679,
+        "total": 680,
         "on_time": 31,
-        "late": 627,
+        "late": 628,
         "cancelled": 21,
-        "avg_delay_min": 5.4
+        "avg_delay_min": 5.3
       }
     }
   },
@@ -69283,10 +69299,18 @@
     {
       "date": "2026-09-29",
       "total": 119,
-      "on_time": 4,
-      "late": 111,
+      "on_time": 5,
+      "late": 110,
       "cancelled": 4,
       "avg_delay_min": 4.1
+    },
+    {
+      "date": "2026-09-30",
+      "total": 1,
+      "on_time": 0,
+      "late": 1,
+      "cancelled": 0,
+      "avg_delay_min": 2.0
     }
   ],
   "daily_by_direction": {
@@ -69518,8 +69542,8 @@
       {
         "date": "2026-09-29",
         "total": 60,
-        "on_time": 3,
-        "late": 55,
+        "on_time": 4,
+        "late": 54,
         "cancelled": 2,
         "avg_delay_min": 3.3
       }
@@ -69620,6 +69644,14 @@
         "late": 56,
         "cancelled": 2,
         "avg_delay_min": 4.9
+      },
+      {
+        "date": "2026-09-30",
+        "total": 1,
+        "on_time": 0,
+        "late": 1,
+        "cancelled": 0,
+        "avg_delay_min": 2.0
       }
     ]
   }
