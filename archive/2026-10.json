@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T22:00:00.255936+00:00",
+  "generated_at": "2026-10-12T23:00:00.205399+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-10",
@@ -24443,28 +24443,92 @@
       "terminus_delay_minutes": 2,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "1158215719295097093-2610130003-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-10-12T22:20:00+00:00",
+      "actual_time": "2026-10-12T22:20:00+00:00",
+      "delay_minutes": 0,
+      "cancelled": false,
+      "train_number": "8731",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "4696518332274385163-2610122354-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-10-12T22:20:00+00:00",
+      "actual_time": "2026-10-12T22:21:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8724",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 4,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-4646435823797920390-2610130034-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-10-12T23:00:00+00:00",
+      "actual_time": "2026-10-12T23:02:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8728",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 4,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-5015977148636198963-2610130043-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-10-12T23:00:00+00:00",
+      "actual_time": "2026-10-12T23:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8735",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
-    "total": 1365,
-    "on_time": 174,
-    "late": 1169,
+    "total": 1369,
+    "on_time": 175,
+    "late": 1172,
     "cancelled": 22,
     "avg_delay_min": 3.7,
     "by_direction": {
       "muenchen": {
-        "total": 673,
-        "on_time": 110,
-        "late": 552,
+        "total": 675,
+        "on_time": 111,
+        "late": 553,
         "cancelled": 11,
         "avg_delay_min": 3.0
       },
       "wolfratshausen": {
-        "total": 676,
+        "total": 678,
         "on_time": 63,
-        "late": 602,
+        "late": 604,
         "cancelled": 11,
-        "avg_delay_min": 4.5
+        "avg_delay_min": 4.4
       }
     }
   },
@@ -24559,11 +24623,11 @@
     },
     {
       "date": "2026-10-12",
-      "total": 115,
-      "on_time": 28,
-      "late": 83,
+      "total": 119,
+      "on_time": 29,
+      "late": 86,
       "cancelled": 4,
-      "avg_delay_min": 3.4
+      "avg_delay_min": 3.3
     }
   ],
   "daily_by_direction": {
@@ -24658,11 +24722,11 @@
       },
       {
         "date": "2026-10-12",
-        "total": 58,
-        "on_time": 19,
-        "late": 37,
+        "total": 60,
+        "on_time": 20,
+        "late": 38,
         "cancelled": 2,
-        "avg_delay_min": 2.0
+        "avg_delay_min": 1.9
       }
     ],
     "wolfratshausen": [
@@ -24756,11 +24820,11 @@
       },
       {
         "date": "2026-10-12",
-        "total": 57,
+        "total": 59,
         "on_time": 9,
-        "late": 46,
+        "late": 48,
         "cancelled": 2,
-        "avg_delay_min": 4.9
+        "avg_delay_min": 4.8
       }
     ]
   }
