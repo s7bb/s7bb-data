@@ -1,30 +1,9 @@
 {
-  "generated_at": "2026-10-11T23:00:00.053735+00:00",
+  "generated_at": "2026-10-12T00:00:00.075669+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "window_days": 7,
   "arrivals": [
-    {
-      "train_id": "3896499363414029360-2610050134-12",
-      "line": "S7",
-      "station": "Baierbrunn",
-      "direction": "Wolfratshausen",
-      "direction_bucket": "wolfratshausen",
-      "scheduled_time": "2026-10-05T00:00:00+00:00",
-      "actual_time": "2026-10-05T00:19:00+00:00",
-      "delay_minutes": 19,
-      "cancelled": false,
-      "train_number": "8734",
-      "terminus_status": "arrived",
-      "terminus_delay_minutes": 20,
-      "terminus_short_turn_station": null,
-      "disruption": {
-        "category": null,
-        "cause_code": 48,
-        "cause_text": null,
-        "window": null
-      }
-    },
     {
       "train_id": "7445422947788705273-2610050423-5",
       "line": "S7",
@@ -14434,8 +14413,8 @@
       "direction": "Wolfratshausen",
       "direction_bucket": "wolfratshausen",
       "scheduled_time": "2026-10-11T23:00:00+00:00",
-      "actual_time": "2026-10-11T23:01:00+00:00",
-      "delay_minutes": 1,
+      "actual_time": "2026-10-11T23:00:00+00:00",
+      "delay_minutes": 0,
       "cancelled": false,
       "train_number": "8728",
       "terminus_status": "arrived",
@@ -14450,10 +14429,26 @@
       "direction": "München Hbf Gl.27-36",
       "direction_bucket": "muenchen",
       "scheduled_time": "2026-10-11T23:00:00+00:00",
-      "actual_time": "2026-10-11T23:02:00+00:00",
-      "delay_minutes": 2,
+      "actual_time": "2026-10-11T23:00:00+00:00",
+      "delay_minutes": 0,
       "cancelled": false,
       "train_number": "8735",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 3,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "3896499363414029360-2610120134-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-10-12T00:00:00+00:00",
+      "actual_time": "2026-10-12T00:01:00+00:00",
+      "delay_minutes": 1,
+      "cancelled": false,
+      "train_number": "8734",
       "terminus_status": "arrived",
       "terminus_delay_minutes": 3,
       "terminus_short_turn_station": null,
@@ -14462,51 +14457,51 @@
   ],
   "aggregates": {
     "today": {
-      "total": 4,
-      "on_time": 0,
-      "late": 4,
+      "total": 5,
+      "on_time": 2,
+      "late": 3,
       "cancelled": 0,
-      "avg_delay_min": 3.8,
+      "avg_delay_min": 2.6,
       "by_direction": {
         "muenchen": {
           "total": 2,
-          "on_time": 0,
-          "late": 2,
+          "on_time": 1,
+          "late": 1,
           "cancelled": 0,
-          "avg_delay_min": 4.0,
+          "avg_delay_min": 3.0,
           "missing": 0
         },
         "wolfratshausen": {
-          "total": 2,
-          "on_time": 0,
+          "total": 3,
+          "on_time": 1,
           "late": 2,
           "cancelled": 0,
-          "avg_delay_min": 3.5,
+          "avg_delay_min": 2.3,
           "missing": 0
         }
       }
     },
     "last_7_days": {
       "total": 808,
-      "on_time": 122,
-      "late": 677,
+      "on_time": 124,
+      "late": 675,
       "cancelled": 9,
-      "avg_delay_min": 3.7,
+      "avg_delay_min": 3.6,
       "by_direction": {
         "muenchen": {
           "total": 393,
-          "on_time": 74,
-          "late": 314,
+          "on_time": 75,
+          "late": 313,
           "cancelled": 5,
           "avg_delay_min": 3.0,
           "missing": 0
         },
         "wolfratshausen": {
           "total": 399,
-          "on_time": 47,
-          "late": 348,
+          "on_time": 48,
+          "late": 347,
           "cancelled": 4,
-          "avg_delay_min": 4.4,
+          "avg_delay_min": 4.3,
           "missing": 0
         }
       }
@@ -14520,7 +14515,8 @@
       ],
       "wolfratshausen": [
         "2026-10-11T22:20:00+00:00",
-        "2026-10-11T23:00:00+00:00"
+        "2026-10-11T23:00:00+00:00",
+        "2026-10-12T00:00:00+00:00"
       ]
     }
   },
@@ -14533,7 +14529,7 @@
     {
       "bucket": "wolfratshausen",
       "zero_match_streak": 0,
-      "updated_at": "2026-10-11T22:55:00.559004+00:00"
+      "updated_at": "2026-10-11T23:55:00.495092+00:00"
     }
   ]
 }
