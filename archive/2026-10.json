@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T03:00:00.296352+00:00",
+  "generated_at": "2026-10-30T04:00:00.348985+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-10",
@@ -58999,19 +58999,51 @@
           "to": "2026-10-30T03:30:00+00:00"
         }
       }
+    },
+    {
+      "train_id": "7445422947788705273-2610300423-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-10-30T03:40:00+00:00",
+      "actual_time": "2026-10-30T03:42:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "6713",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 4,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "7311243364191003536-2610300443-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-10-30T04:00:00+00:00",
+      "actual_time": "2026-10-30T04:02:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "6715",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
-    "total": 3335,
+    "total": 3337,
     "on_time": 434,
-    "late": 2821,
+    "late": 2823,
     "cancelled": 80,
     "avg_delay_min": 3.4,
     "by_direction": {
       "muenchen": {
-        "total": 1665,
+        "total": 1667,
         "on_time": 257,
-        "late": 1369,
+        "late": 1371,
         "cancelled": 39,
         "avg_delay_min": 2.9
       },
@@ -59259,11 +59291,11 @@
     },
     {
       "date": "2026-10-30",
-      "total": 3,
+      "total": 5,
       "on_time": 0,
-      "late": 0,
+      "late": 2,
       "cancelled": 3,
-      "avg_delay_min": 0.0
+      "avg_delay_min": 2.0
     }
   ],
   "daily_by_direction": {
@@ -59502,11 +59534,11 @@
       },
       {
         "date": "2026-10-30",
-        "total": 1,
+        "total": 3,
         "on_time": 0,
-        "late": 0,
+        "late": 2,
         "cancelled": 1,
-        "avg_delay_min": 0.0
+        "avg_delay_min": 2.0
       }
     ],
     "wolfratshausen": [
