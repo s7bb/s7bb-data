@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-11-01T00:00:00.171161+00:00",
+  "station": "Baierbrunn",
+  "line": "S7",
+  "period": "2026-11",
+  "finalized": false,
+  "arrivals": [
+    {
+      "train_id": "-4646435823797920390-2611010034-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-11-01T00:00:00+00:00",
+      "actual_time": "2026-11-01T00:03:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "8728",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 5,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "-5015977148636198963-2611010043-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-11-01T00:00:00+00:00",
+      "actual_time": "2026-11-01T00:02:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "8735",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    }
+  ],
+  "aggregates": {
+    "total": 2,
+    "on_time": 0,
+    "late": 2,
+    "cancelled": 0,
+    "avg_delay_min": 2.5,
+    "by_direction": {
+      "muenchen": {
+        "total": 1,
+        "on_time": 0,
+        "late": 1,
+        "cancelled": 0,
+        "avg_delay_min": 2.0
+      },
+      "wolfratshausen": {
+        "total": 1,
+        "on_time": 0,
+        "late": 1,
+        "cancelled": 0,
+        "avg_delay_min": 3.0
+      }
+    }
+  },
+  "daily": [
+    {
+      "date": "2026-11-01",
+      "total": 2,
+      "on_time": 0,
+      "late": 2,
+      "cancelled": 0,
+      "avg_delay_min": 2.5
+    }
+  ],
+  "daily_by_direction": {
+    "muenchen": [
+      {
+        "date": "2026-11-01",
+        "total": 1,
+        "on_time": 0,
+        "late": 1,
+        "cancelled": 0,
+        "avg_delay_min": 2.0
+      }
+    ],
+    "wolfratshausen": [
+      {
+        "date": "2026-11-01",
+        "total": 1,
+        "on_time": 0,
+        "late": 1,
+        "cancelled": 0,
+        "avg_delay_min": 3.0
+      }
+    ]
+  }
+}
