@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:00:00.170712+00:00",
+  "generated_at": "2026-11-03T01:00:00.170049+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-11",
@@ -3813,8 +3813,8 @@
       "direction": "Wolfratshausen",
       "direction_bucket": "wolfratshausen",
       "scheduled_time": "2026-11-03T00:00:00+00:00",
-      "actual_time": "2026-11-03T00:04:00+00:00",
-      "delay_minutes": 4,
+      "actual_time": "2026-11-03T00:05:00+00:00",
+      "delay_minutes": 5,
       "cancelled": false,
       "train_number": "8728",
       "terminus_status": "arrived",
@@ -3842,12 +3842,28 @@
         "cause_text": null,
         "window": null
       }
+    },
+    {
+      "train_id": "3896499363414029360-2611030134-12",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "Wolfratshausen",
+      "direction_bucket": "wolfratshausen",
+      "scheduled_time": "2026-11-03T01:00:00+00:00",
+      "actual_time": "2026-11-03T01:03:00+00:00",
+      "delay_minutes": 3,
+      "cancelled": false,
+      "train_number": "8734",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 5,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
-    "total": 223,
+    "total": 224,
     "on_time": 26,
-    "late": 194,
+    "late": 195,
     "cancelled": 3,
     "avg_delay_min": 2.4,
     "by_direction": {
@@ -3859,9 +3875,9 @@
         "avg_delay_min": 2.1
       },
       "wolfratshausen": {
-        "total": 111,
+        "total": 112,
         "on_time": 13,
-        "late": 97,
+        "late": 98,
         "cancelled": 1,
         "avg_delay_min": 2.7
       }
@@ -3886,11 +3902,11 @@
     },
     {
       "date": "2026-11-03",
-      "total": 2,
+      "total": 3,
       "on_time": 0,
-      "late": 2,
+      "late": 3,
       "cancelled": 0,
-      "avg_delay_min": 4.5
+      "avg_delay_min": 4.3
     }
   ],
   "daily_by_direction": {
@@ -3939,9 +3955,9 @@
       },
       {
         "date": "2026-11-03",
-        "total": 1,
+        "total": 2,
         "on_time": 0,
-        "late": 1,
+        "late": 2,
         "cancelled": 0,
         "avg_delay_min": 4.0
       }
