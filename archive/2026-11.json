@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T03:00:00.248218+00:00",
+  "generated_at": "2026-11-25T04:00:00.289365+00:00",
   "station": "Baierbrunn",
   "line": "S7",
   "period": "2026-11",
@@ -47692,19 +47692,51 @@
       "terminus_delay_minutes": 3,
       "terminus_short_turn_station": null,
       "disruption": null
+    },
+    {
+      "train_id": "7445422947788705273-2611250423-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-11-25T03:40:00+00:00",
+      "actual_time": "2026-11-25T03:40:00+00:00",
+      "delay_minutes": 0,
+      "cancelled": false,
+      "train_number": "6713",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": null
+    },
+    {
+      "train_id": "7311243364191003536-2611250443-5",
+      "line": "S7",
+      "station": "Baierbrunn",
+      "direction": "München Hbf Gl.27-36",
+      "direction_bucket": "muenchen",
+      "scheduled_time": "2026-11-25T04:00:00+00:00",
+      "actual_time": "2026-11-25T04:02:00+00:00",
+      "delay_minutes": 2,
+      "cancelled": false,
+      "train_number": "6715",
+      "terminus_status": "arrived",
+      "terminus_delay_minutes": 2,
+      "terminus_short_turn_station": null,
+      "disruption": null
     }
   ],
   "aggregates": {
-    "total": 2728,
-    "on_time": 448,
-    "late": 2243,
+    "total": 2730,
+    "on_time": 449,
+    "late": 2244,
     "cancelled": 37,
     "avg_delay_min": 3.0,
     "by_direction": {
       "muenchen": {
-        "total": 1373,
-        "on_time": 250,
-        "late": 1104,
+        "total": 1375,
+        "on_time": 251,
+        "late": 1105,
         "cancelled": 19,
         "avg_delay_min": 2.6
       },
@@ -47912,9 +47944,9 @@
     },
     {
       "date": "2026-11-25",
-      "total": 3,
-      "on_time": 1,
-      "late": 2,
+      "total": 5,
+      "on_time": 2,
+      "late": 3,
       "cancelled": 0,
       "avg_delay_min": 1.0
     }
@@ -48115,9 +48147,9 @@
       },
       {
         "date": "2026-11-25",
-        "total": 1,
-        "on_time": 0,
-        "late": 1,
+        "total": 3,
+        "on_time": 1,
+        "late": 2,
         "cancelled": 0,
         "avg_delay_min": 1.0
       }
